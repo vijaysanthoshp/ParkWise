@@ -49,6 +49,22 @@ shap_explainer = None
 def safe_load_parquet(path: Path, label: str):
     if path.exists():
         print(f"  Loading {label}...")
+        # Only load required columns to prevent OOM on Render free tier (512MB limit)
+        if "proximity_scored" in path.name:
+            cols = [
+                "id", "latitude", "longitude", "event_type", "event_cause",
+                "corridor", "junction", "zone", "priority", "status",
+                "requires_road_closure", "start_datetime",
+                "veh_type", "is_parking_induced",
+                "parking_probability", "composite_parking_score",
+                "nearest_zone_type", "within_parking_zone",
+                "day_of_week", "hour_of_day", "is_high_confidence_parking"
+            ]
+            # Gracefully handle missing columns in the parquet
+            import pyarrow.parquet as pq
+            schema = pq.read_schema(path)
+            avail_cols = [c for c in cols if c in schema.names]
+            return pd.read_parquet(path, columns=avail_cols)
         return pd.read_parquet(path)
     print(f"  WARN: {label} not found at {path}. Run pipeline first.")
     return pd.DataFrame()
