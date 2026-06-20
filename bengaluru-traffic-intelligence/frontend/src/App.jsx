@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import Tab1_SmartMap       from './components/Tab1_SmartMap'
 import Tab2_Predictions    from './components/Tab2_Predictions'
 import Tab3_RiskScorecard  from './components/Tab3_RiskScorecard'
+import ChatbotWidget       from './components/ChatbotWidget'
 import './index.css'
 
 const API = 'http://localhost:8000'
@@ -234,6 +235,7 @@ export default function App() {
         {tab === 'risk'    && <Tab3_RiskScorecard  api={API} />}
       </div>
 
+      <ChatbotWidget api={API} />
       <FooterBar health={health} />
     </div>
   )
