@@ -54,7 +54,8 @@ def get_incidents(
     query += f" ORDER BY start_datetime DESC LIMIT {limit}"
     
     try:
-        result = duckdb.query(query).df()
+        with duckdb.connect() as con:
+            result = con.query(query).df()
     except Exception as e:
         raise HTTPException(500, f"Query error: {e}")
 
@@ -267,10 +268,11 @@ def get_summary():
     """
     
     try:
-        res = duckdb.query(q).df().iloc[0]
-        top_corridor = duckdb.query(f"SELECT corridor, COUNT(*) as c FROM '{path}' GROUP BY corridor ORDER BY c DESC LIMIT 1").df()['corridor'].iloc[0]
-        top_violation = duckdb.query(f"SELECT event_type, COUNT(*) as c FROM '{path}' GROUP BY event_type ORDER BY c DESC LIMIT 1").df()['event_type'].iloc[0]
-        top_junction = duckdb.query(f"SELECT junction, COUNT(*) as c FROM '{path}' WHERE junction NOT IN ('Unknown', 'No Junction', '') AND junction IS NOT NULL GROUP BY junction ORDER BY c DESC LIMIT 1").df()['junction'].iloc[0]
+        with duckdb.connect() as con:
+            res = con.query(q).df().iloc[0]
+            top_corridor = con.query(f"SELECT corridor, COUNT(*) as c FROM '{path}' GROUP BY corridor ORDER BY c DESC LIMIT 1").df()['corridor'].iloc[0]
+            top_violation = con.query(f"SELECT event_type, COUNT(*) as c FROM '{path}' GROUP BY event_type ORDER BY c DESC LIMIT 1").df()['event_type'].iloc[0]
+            top_junction = con.query(f"SELECT junction, COUNT(*) as c FROM '{path}' WHERE junction NOT IN ('Unknown', 'No Junction', '') AND junction IS NOT NULL GROUP BY junction ORDER BY c DESC LIMIT 1").df()['junction'].iloc[0]
     except Exception as e:
         raise HTTPException(500, f"Query error: {e}")
 
@@ -401,7 +403,8 @@ def health():
         try:
             import duckdb
             path = str(ds.INCIDENTS_PARQUET_PATH).replace('\\', '/')
-            incident_count = int(duckdb.query(f"SELECT COUNT(*) FROM '{path}'").fetchone()[0])
+            with duckdb.connect() as con:
+                incident_count = int(con.query(f"SELECT COUNT(*) FROM '{path}'").fetchone()[0])
         except Exception:
             pass
             
