@@ -3,7 +3,7 @@ import {
   BarChart, Bar, XAxis, YAxis, CartesianGrid,
   Tooltip, ResponsiveContainer,
 } from 'recharts'
-import { MAPPLS_API_KEY } from '../mapplsConfig.js'
+const MAPPLS_API_KEY = import.meta.env.VITE_MAPPLS_API_KEY || 'ejbaerslodkofiohazrkvbrjsptrbvrcqfyp'
 
 // ─── Mappls SDK Loader ───────────────────────────────────────────────────────
 let mapplsLoadPromise = null

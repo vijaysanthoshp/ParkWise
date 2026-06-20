@@ -5,7 +5,7 @@ import Tab3_RiskScorecard  from './components/Tab3_RiskScorecard'
 import ChatbotWidget       from './components/ChatbotWidget'
 import './index.css'
 
-const API = 'http://localhost:8000'
+const API = import.meta.env.VITE_API_URL || 'http://localhost:8000'
 
 const TABS = [
   { id: 'map',     label: 'Smart Incident Map',         icon: '📍', desc: 'Heatmap & clustering' },
