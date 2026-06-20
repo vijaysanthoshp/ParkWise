@@ -89,8 +89,6 @@ def load_all_data():
 
     INCIDENTS_PARQUET_PATH = DATA_DIR / "processed" / "proximity_scored.parquet"
     df = safe_load_parquet(INCIDENTS_PARQUET_PATH, "incident data")
-    if not df.empty:
-        df["start_datetime"] = pd.to_datetime(df["start_datetime"])
 
     DEMAND_SURF = safe_load_parquet(OUTPUTS_DIR / "demand_surface.parquet", "demand surface")
     h3_surface  = safe_load_parquet(OUTPUTS_DIR / "h3_surface.parquet",       "H3 surface")

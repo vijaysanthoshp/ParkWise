@@ -3,7 +3,7 @@ pyarrow>=14.0.0
 scikit-learn>=1.4.0
 lightgbm==4.3.0
 xgboost==2.0.3
-shap==0.44.0
+shap>=0.46.0
 h3==3.7.6
 geopandas==0.14.0
 shapely==2.0.0
