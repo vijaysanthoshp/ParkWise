@@ -24,17 +24,12 @@ def get_incidents(
     day:          Optional[int] = Query(None, ge=0, le=6),
     limit:        int           = Query(200, le=2000),
 ):
-    if ds.df is None or ds.df.empty:
-        raise HTTPException(503, "Incident data not loaded. Run pipeline first.")
+    if not ds.INCIDENTS_PARQUET_PATH or not ds.INCIDENTS_PARQUET_PATH.exists():
+        raise HTTPException(503, "Incident data not found. Run pipeline first.")
 
-    result = ds.df.copy()
-    if zone:         result = result[result.get("zone",       pd.Series()) == zone]
-    if event_type:   result = result[result.get("event_type", pd.Series()) == event_type]
-    if priority:     result = result[result.get("priority",   pd.Series()) == priority]
-    if day is not None: result = result[result.get("day_of_week", pd.Series()) == day]
-    if parking_only:
-        result = result[result.get("is_high_confidence_parking", pd.Series(0, index=result.index)) == 1]
-
+    import duckdb
+    path_str = str(ds.INCIDENTS_PARQUET_PATH).replace('\\', '/')
+    
     COLS = [
         "id", "latitude", "longitude", "event_type", "event_cause",
         "corridor", "junction", "zone", "priority", "status",
@@ -43,9 +38,27 @@ def get_incidents(
         "parking_probability", "composite_parking_score",
         "nearest_zone_type", "within_parking_zone",
     ]
-    available = [c for c in COLS if c in result.columns]
-    result    = result[available].tail(limit)
-    records   = [ds.clean_record(r) for r in result.to_dict("records")]
+    col_str = ", ".join(COLS)
+    
+    query = f"SELECT {col_str} FROM '{path_str}'"
+    filters = []
+    if zone:         filters.append(f"zone = '{zone}'")
+    if event_type:   filters.append(f"event_type = '{event_type}'")
+    if priority:     filters.append(f"priority = '{priority}'")
+    if day is not None: filters.append(f"day_of_week = {day}")
+    if parking_only: filters.append("is_high_confidence_parking = 1")
+    
+    if filters:
+        query += " WHERE " + " AND ".join(filters)
+        
+    query += f" ORDER BY start_datetime DESC LIMIT {limit}"
+    
+    try:
+        result = duckdb.query(query).df()
+    except Exception as e:
+        raise HTTPException(500, f"Query error: {e}")
+
+    records = [ds.clean_record(r) for r in result.to_dict("records")]
     return {"count": len(records), "incidents": records}
 
 
@@ -236,25 +249,47 @@ def get_validation():
 
 @router.get("/summary", summary="High-level KPI cards for dashboard")
 def get_summary():
-    if ds.df is None or ds.df.empty:
-        raise HTTPException(503, "Data not loaded.")
+    if not ds.INCIDENTS_PARQUET_PATH or not ds.INCIDENTS_PARQUET_PATH.exists():
+        raise HTTPException(503, "Incident data not found.")
 
-    parking = ds.df[ds.df.get("is_high_confidence_parking", pd.Series(0, index=ds.df.index)) == 1] if "is_high_confidence_parking" in ds.df.columns else ds.df.head(0)
-    total = len(ds.df)
+    import duckdb
+    path = str(ds.INCIDENTS_PARQUET_PATH).replace('\\', '/')
+    
+    q = f"""
+    SELECT 
+        COUNT(*) as total_incidents,
+        SUM(is_high_confidence_parking) as parking_incidents,
+        AVG(requires_road_closure) as road_closure_rate,
+        SUM(CASE WHEN status != 'resolved' THEN 1 ELSE 0 END) as open_incidents,
+        MIN(start_datetime) as date_range_start,
+        MAX(start_datetime) as date_range_end
+    FROM '{path}'
+    """
+    
+    try:
+        res = duckdb.query(q).df().iloc[0]
+        top_corridor = duckdb.query(f"SELECT corridor, COUNT(*) as c FROM '{path}' GROUP BY corridor ORDER BY c DESC LIMIT 1").df()['corridor'].iloc[0]
+        top_violation = duckdb.query(f"SELECT event_type, COUNT(*) as c FROM '{path}' GROUP BY event_type ORDER BY c DESC LIMIT 1").df()['event_type'].iloc[0]
+        top_junction = duckdb.query(f"SELECT junction, COUNT(*) as c FROM '{path}' WHERE junction NOT IN ('Unknown', 'No Junction', '') AND junction IS NOT NULL GROUP BY junction ORDER BY c DESC LIMIT 1").df()['junction'].iloc[0]
+    except Exception as e:
+        raise HTTPException(500, f"Query error: {e}")
+
+    total = int(res['total_incidents'])
+    parking = int(res['parking_incidents'])
     
     return {
-        "total_incidents":       int(total),
-        "parking_incidents":     int(len(parking)),
-        "parking_pct":           round(100 * len(parking) / max(1, total), 1),
+        "total_incidents":       total,
+        "parking_incidents":     parking,
+        "parking_pct":           round(100 * parking / max(1, total), 1),
         "avg_clearance_minutes": 0,
         "parking_avg_clearance": 0,
-        "road_closure_rate":     round(float(ds.df["requires_road_closure"].mean()), 3) if "requires_road_closure" in ds.df.columns else 0,
-        "top_corridor":          str(ds.df["corridor"].value_counts().index[0]) if "corridor" in ds.df.columns else "Unknown",
-        "open_incidents":        int((ds.df.get("status", pd.Series()) != "resolved").sum()),
-        "date_range_start":      str(ds.df["start_datetime"].min()),
-        "date_range_end":        str(ds.df["start_datetime"].max()),
-        "top_junction":          (str(ds.df[ds.df["junction"].notna() & ~ds.df["junction"].isin(["Unknown", "No Junction", ""])]["junction"].value_counts().index[0]) if "junction" in ds.df.columns and ds.df["junction"].notna().any() else "Unknown"),
-        "top_violation":         str(ds.df["event_type"].astype(str).value_counts().index[0]) if "event_type" in ds.df.columns else "Unknown",
+        "road_closure_rate":     round(float(res['road_closure_rate'] or 0), 3),
+        "top_corridor":          str(top_corridor),
+        "open_incidents":        int(res['open_incidents'] or 0),
+        "date_range_start":      str(res['date_range_start']),
+        "date_range_end":        str(res['date_range_end']),
+        "top_junction":          str(top_junction),
+        "top_violation":         str(top_violation),
     }
 
 
@@ -358,12 +393,24 @@ def chat_with_astram(payload: ChatMessage):
 @router.get("/health")
 def health():
     groq_key_set = bool(os.getenv("GROQ_API_KEY", ""))
+    
+    data_loaded = False
+    incident_count = 0
+    if ds.INCIDENTS_PARQUET_PATH and ds.INCIDENTS_PARQUET_PATH.exists():
+        data_loaded = True
+        try:
+            import duckdb
+            path = str(ds.INCIDENTS_PARQUET_PATH).replace('\\', '/')
+            incident_count = int(duckdb.query(f"SELECT COUNT(*) FROM '{path}'").fetchone()[0])
+        except Exception:
+            pass
+            
     return {
         "status":          "ok",
-        "data_loaded":     ds.df is not None and not ds.df.empty,
+        "data_loaded":     data_loaded,
         "model_loaded":    ds.model_bundle is not None,
         "shap_available":  ds.SHAP_AVAILABLE,
         "groq_available":  ds.GROQ_AVAILABLE and groq_key_set,
-        "incident_count":  int(len(ds.df)) if ds.df is not None else 0,
+        "incident_count":  incident_count,
         "model_type":      "Enforcement Demand Forecast (LightGBM)",
     }

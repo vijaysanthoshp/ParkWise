@@ -35,6 +35,7 @@ BTP_PEAK_HOURS = {19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5}
 
 # Global State
 df            = None
+INCIDENTS_PARQUET_PATH = None
 DEMAND_SURF   = None
 h3_surface    = None
 HEXES         = {"type": "FeatureCollection", "features": []}
@@ -49,22 +50,9 @@ shap_explainer = None
 def safe_load_parquet(path: Path, label: str):
     if path.exists():
         print(f"  Loading {label}...")
-        # Only load required columns to prevent OOM on Render free tier (512MB limit)
+        # For DuckDB, we don't load the massive dataframe into Pandas anymore.
         if "proximity_scored" in path.name:
-            cols = [
-                "id", "latitude", "longitude", "event_type", "event_cause",
-                "corridor", "junction", "zone", "priority", "status",
-                "requires_road_closure", "start_datetime",
-                "veh_type", "is_parking_induced",
-                "parking_probability", "composite_parking_score",
-                "nearest_zone_type", "within_parking_zone",
-                "day_of_week", "hour_of_day", "is_high_confidence_parking"
-            ]
-            # Gracefully handle missing columns in the parquet
-            import pyarrow.parquet as pq
-            schema = pq.read_schema(path)
-            avail_cols = [c for c in cols if c in schema.names]
-            return pd.read_parquet(path, columns=avail_cols)
+            return None
         return pd.read_parquet(path)
     print(f"  WARN: {label} not found at {path}. Run pipeline first.")
     return pd.DataFrame()
@@ -93,13 +81,14 @@ def clean_record(rec: dict) -> dict:
 
 
 def load_all_data():
-    global df, DEMAND_SURF, h3_surface, HEXES, CASCADE
+    global df, INCIDENTS_PARQUET_PATH, DEMAND_SURF, h3_surface, HEXES, CASCADE
     global RISK_SCORES, VALIDATION, ENFORCEMENT
     global model_bundle, shap_explainer
 
     print("\n-- Loading pre-computed outputs ------------------------")
 
-    df = safe_load_parquet(DATA_DIR / "processed" / "proximity_scored.parquet", "incident data")
+    INCIDENTS_PARQUET_PATH = DATA_DIR / "processed" / "proximity_scored.parquet"
+    df = safe_load_parquet(INCIDENTS_PARQUET_PATH, "incident data")
     if not df.empty:
         df["start_datetime"] = pd.to_datetime(df["start_datetime"])
 
