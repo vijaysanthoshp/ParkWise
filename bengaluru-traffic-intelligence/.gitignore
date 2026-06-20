@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.env
+venv/
+.venv/
+
+# Data files (large — add your own)
+backend/data/raw/*.csv
+backend/data/processed/*.parquet
+backend/data/outputs/*.json
+backend/data/outputs/*.geojson
+backend/data/outputs/*.parquet
+backend/models/*.pkl
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# API Keys (do not commit)
+frontend/src/mapplsConfig.js
+
+# IDE
+.vscode/
+.idea/
+*.DS_Store
