@@ -1,0 +1,182 @@
+[
+  {
+    "cluster_id": 1,
+    "size": 48365,
+    "lat_center": 12.98017,
+    "lon_center": 77.57412
+  },
+  {
+    "cluster_id": 27,
+    "size": 4988,
+    "lat_center": 12.93524,
+    "lon_center": 77.68987
+  },
+  {
+    "cluster_id": 6,
+    "size": 3792,
+    "lat_center": 13.0039,
+    "lon_center": 77.68503
+  },
+  {
+    "cluster_id": 12,
+    "size": 2964,
+    "lat_center": 13.07102,
+    "lon_center": 77.58823
+  },
+  {
+    "cluster_id": 5,
+    "size": 2807,
+    "lat_center": 12.90032,
+    "lon_center": 77.63364
+  },
+  {
+    "cluster_id": 10,
+    "size": 1537,
+    "lat_center": 13.04572,
+    "lon_center": 77.58924
+  },
+  {
+    "cluster_id": 48,
+    "size": 1272,
+    "lat_center": 12.95962,
+    "lon_center": 77.71787
+  },
+  {
+    "cluster_id": 9,
+    "size": 1173,
+    "lat_center": 13.1857,
+    "lon_center": 77.68096
+  },
+  {
+    "cluster_id": 3,
+    "size": 825,
+    "lat_center": 12.8418,
+    "lon_center": 77.64638
+  },
+  {
+    "cluster_id": 37,
+    "size": 824,
+    "lat_center": 12.9483,
+    "lon_center": 77.53583
+  },
+  {
+    "cluster_id": 14,
+    "size": 786,
+    "lat_center": 12.91878,
+    "lon_center": 77.58102
+  },
+  {
+    "cluster_id": 2,
+    "size": 696,
+    "lat_center": 13.0491,
+    "lon_center": 77.57564
+  },
+  {
+    "cluster_id": 18,
+    "size": 597,
+    "lat_center": 13.02966,
+    "lon_center": 77.5757
+  },
+  {
+    "cluster_id": 7,
+    "size": 538,
+    "lat_center": 12.91199,
+    "lon_center": 77.63663
+  },
+  {
+    "cluster_id": 4,
+    "size": 537,
+    "lat_center": 12.99619,
+    "lon_center": 77.69491
+  },
+  {
+    "cluster_id": 52,
+    "size": 451,
+    "lat_center": 12.9679,
+    "lon_center": 77.64344
+  },
+  {
+    "cluster_id": 42,
+    "size": 421,
+    "lat_center": 12.97893,
+    "lon_center": 77.71182
+  },
+  {
+    "cluster_id": 58,
+    "size": 397,
+    "lat_center": 13.09552,
+    "lon_center": 77.59719
+  },
+  {
+    "cluster_id": 13,
+    "size": 321,
+    "lat_center": 12.98771,
+    "lon_center": 77.73446
+  },
+  {
+    "cluster_id": 32,
+    "size": 294,
+    "lat_center": 12.95943,
+    "lon_center": 77.51621
+  },
+  {
+    "cluster_id": 16,
+    "size": 230,
+    "lat_center": 13.05218,
+    "lon_center": 77.48768
+  },
+  {
+    "cluster_id": 11,
+    "size": 217,
+    "lat_center": 13.01884,
+    "lon_center": 77.53249
+  },
+  {
+    "cluster_id": 75,
+    "size": 203,
+    "lat_center": 12.87599,
+    "lon_center": 77.59604
+  },
+  {
+    "cluster_id": 23,
+    "size": 182,
+    "lat_center": 12.89915,
+    "lon_center": 77.67562
+  },
+  {
+    "cluster_id": 8,
+    "size": 180,
+    "lat_center": 12.97989,
+    "lon_center": 77.63993
+  },
+  {
+    "cluster_id": 67,
+    "size": 170,
+    "lat_center": 12.93341,
+    "lon_center": 77.63003
+  },
+  {
+    "cluster_id": 138,
+    "size": 146,
+    "lat_center": 12.95861,
+    "lon_center": 77.66821
+  },
+  {
+    "cluster_id": 55,
+    "size": 135,
+    "lat_center": 12.90492,
+    "lon_center": 77.70094
+  },
+  {
+    "cluster_id": 33,
+    "size": 131,
+    "lat_center": 12.88328,
+    "lon_center": 77.59682
+  },
+  {
+    "cluster_id": 17,
+    "size": 121,
+    "lat_center": 13.00104,
+    "lon_center": 77.58374
+  }
+]

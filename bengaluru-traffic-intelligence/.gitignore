@@ -7,13 +7,8 @@ __pycache__/
 venv/
 .venv/
 
-# Data files (large — add your own)
+# Data files
 backend/data/raw/*.csv
-backend/data/processed/*.parquet
-backend/data/outputs/*.json
-backend/data/outputs/*.geojson
-backend/data/outputs/*.parquet
-backend/models/*.pkl
 
 # Node
 frontend/node_modules/

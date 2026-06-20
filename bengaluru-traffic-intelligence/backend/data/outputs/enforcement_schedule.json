@@ -1,0 +1,3506 @@
+{
+  "BTP082 - KR Market Junction": [
+    {
+      "day_name": "Monday",
+      "day_of_week": 0,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 4.06,
+      "avg_clearance_min": 111.1,
+      "road_closure_rate": 0.01,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Monday",
+      "day_of_week": 0,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 12.51,
+      "avg_clearance_min": 50.3,
+      "road_closure_rate": 0.0,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Monday",
+      "day_of_week": 0,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 5.83,
+      "avg_clearance_min": 48.1,
+      "road_closure_rate": 0.0,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Monday",
+      "day_of_week": 0,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 5.41,
+      "avg_clearance_min": 94.4,
+      "road_closure_rate": 0.0,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Monday",
+      "day_of_week": 0,
+      "time_period": "Night (8 PM\u2013midnight)",
+      "incidents_per_week": 4.95,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.02,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Tuesday",
+      "day_of_week": 1,
+      "time_period": "Afternoon (2\u20135 PM)",
+      "incidents_per_week": 0.61,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.15,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Tuesday",
+      "day_of_week": 1,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 1.82,
+      "avg_clearance_min": 112.9,
+      "road_closure_rate": 0.0,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Tuesday",
+      "day_of_week": 1,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 19.27,
+      "avg_clearance_min": 45.7,
+      "road_closure_rate": 0.0,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Tuesday",
+      "day_of_week": 1,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 7.37,
+      "avg_clearance_min": 160.7,
+      "road_closure_rate": 0.05,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Tuesday",
+      "day_of_week": 1,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 6.11,
+      "avg_clearance_min": 153.5,
+      "road_closure_rate": 0.0,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Tuesday",
+      "day_of_week": 1,
+      "time_period": "Night (8 PM\u2013midnight)",
+      "incidents_per_week": 11.11,
+      "avg_clearance_min": 69.0,
+      "road_closure_rate": 0.01,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Wednesday",
+      "day_of_week": 2,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 3.13,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.01,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Wednesday",
+      "day_of_week": 2,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 16.15,
+      "avg_clearance_min": 42.2,
+      "road_closure_rate": 0.01,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Wednesday",
+      "day_of_week": 2,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 7.37,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.02,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Wednesday",
+      "day_of_week": 2,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 5.18,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Wednesday",
+      "day_of_week": 2,
+      "time_period": "Night (8 PM\u2013midnight)",
+      "incidents_per_week": 7.7,
+      "avg_clearance_min": 76.7,
+      "road_closure_rate": 0.01,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Thursday",
+      "day_of_week": 3,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 2.61,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Thursday",
+      "day_of_week": 3,
+      "time_period": "Evening peak (5\u20138 PM)",
+      "incidents_per_week": 0.56,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Thursday",
+      "day_of_week": 3,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 18.76,
+      "avg_clearance_min": 59.3,
+      "road_closure_rate": 0.01,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Thursday",
+      "day_of_week": 3,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 5.55,
+      "avg_clearance_min": 50.5,
+      "road_closure_rate": 0.0,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Thursday",
+      "day_of_week": 3,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 6.16,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.02,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Thursday",
+      "day_of_week": 3,
+      "time_period": "Night (8 PM\u2013midnight)",
+      "incidents_per_week": 3.64,
+      "avg_clearance_min": 76.4,
+      "road_closure_rate": 0.01,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Friday",
+      "day_of_week": 4,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 2.15,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Friday",
+      "day_of_week": 4,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 13.16,
+      "avg_clearance_min": 55.5,
+      "road_closure_rate": 0.01,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Friday",
+      "day_of_week": 4,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 5.09,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.01,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Friday",
+      "day_of_week": 4,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 3.31,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.01,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Friday",
+      "day_of_week": 4,
+      "time_period": "Night (8 PM\u2013midnight)",
+      "incidents_per_week": 4.67,
+      "avg_clearance_min": 100.2,
+      "road_closure_rate": 0.21,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Saturday",
+      "day_of_week": 5,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 4.62,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.01,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Saturday",
+      "day_of_week": 5,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 9.75,
+      "avg_clearance_min": 48.2,
+      "road_closure_rate": 0.0,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Saturday",
+      "day_of_week": 5,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 6.35,
+      "avg_clearance_min": 49.9,
+      "road_closure_rate": 0.1,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Saturday",
+      "day_of_week": 5,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 6.39,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Saturday",
+      "day_of_week": 5,
+      "time_period": "Night (8 PM\u2013midnight)",
+      "incidents_per_week": 3.78,
+      "avg_clearance_min": 49.0,
+      "road_closure_rate": 0.09,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Sunday",
+      "day_of_week": 6,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 5.6,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Sunday",
+      "day_of_week": 6,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 19.97,
+      "avg_clearance_min": 65.3,
+      "road_closure_rate": 0.02,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Sunday",
+      "day_of_week": 6,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 8.91,
+      "avg_clearance_min": 48.5,
+      "road_closure_rate": 0.02,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Sunday",
+      "day_of_week": 6,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 11.48,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.02,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Sunday",
+      "day_of_week": 6,
+      "time_period": "Night (8 PM\u2013midnight)",
+      "incidents_per_week": 3.78,
+      "avg_clearance_min": 98.2,
+      "road_closure_rate": 0.0,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    }
+  ],
+  "BTP051 - Safina Plaza Junction": [
+    {
+      "day_name": "Monday",
+      "day_of_week": 0,
+      "time_period": "Afternoon (2\u20135 PM)",
+      "incidents_per_week": 2.33,
+      "avg_clearance_min": 213.2,
+      "road_closure_rate": 0.02,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Monday",
+      "day_of_week": 0,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 1.17,
+      "avg_clearance_min": 165.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Monday",
+      "day_of_week": 0,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 23.29,
+      "avg_clearance_min": 65.4,
+      "road_closure_rate": 0.14,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Monday",
+      "day_of_week": 0,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 11.15,
+      "avg_clearance_min": 63.4,
+      "road_closure_rate": 0.12,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Tuesday",
+      "day_of_week": 1,
+      "time_period": "Afternoon (2\u20135 PM)",
+      "incidents_per_week": 1.49,
+      "avg_clearance_min": 84.6,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Tuesday",
+      "day_of_week": 1,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 1.07,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Tuesday",
+      "day_of_week": 1,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 8.03,
+      "avg_clearance_min": 66.3,
+      "road_closure_rate": 0.03,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Tuesday",
+      "day_of_week": 1,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 11.81,
+      "avg_clearance_min": 98.3,
+      "road_closure_rate": 0.0,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Wednesday",
+      "day_of_week": 2,
+      "time_period": "Afternoon (2\u20135 PM)",
+      "incidents_per_week": 1.31,
+      "avg_clearance_min": 421.0,
+      "road_closure_rate": 0.04,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Wednesday",
+      "day_of_week": 2,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 2.1,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Wednesday",
+      "day_of_week": 2,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 12.79,
+      "avg_clearance_min": 85.2,
+      "road_closure_rate": 0.1,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Wednesday",
+      "day_of_week": 2,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 6.25,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.02,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Thursday",
+      "day_of_week": 3,
+      "time_period": "Afternoon (2\u20135 PM)",
+      "incidents_per_week": 1.77,
+      "avg_clearance_min": 327.0,
+      "road_closure_rate": 0.05,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Thursday",
+      "day_of_week": 3,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 0.56,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Thursday",
+      "day_of_week": 3,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 7.42,
+      "avg_clearance_min": 53.2,
+      "road_closure_rate": 0.12,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Thursday",
+      "day_of_week": 3,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 5.13,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.02,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Friday",
+      "day_of_week": 4,
+      "time_period": "Afternoon (2\u20135 PM)",
+      "incidents_per_week": 2.61,
+      "avg_clearance_min": 255.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Friday",
+      "day_of_week": 4,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 1.31,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Friday",
+      "day_of_week": 4,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 9.19,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.04,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Friday",
+      "day_of_week": 4,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 4.48,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.03,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Saturday",
+      "day_of_week": 5,
+      "time_period": "Afternoon (2\u20135 PM)",
+      "incidents_per_week": 4.29,
+      "avg_clearance_min": 431.3,
+      "road_closure_rate": 0.0,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Saturday",
+      "day_of_week": 5,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 2.38,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.16,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Saturday",
+      "day_of_week": 5,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 1.31,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Saturday",
+      "day_of_week": 5,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 9.19,
+      "avg_clearance_min": 91.6,
+      "road_closure_rate": 0.09,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Saturday",
+      "day_of_week": 5,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 5.55,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.04,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Sunday",
+      "day_of_week": 6,
+      "time_period": "Afternoon (2\u20135 PM)",
+      "incidents_per_week": 2.52,
+      "avg_clearance_min": 384.6,
+      "road_closure_rate": 0.0,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Sunday",
+      "day_of_week": 6,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 2.94,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Sunday",
+      "day_of_week": 6,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 20.91,
+      "avg_clearance_min": 50.9,
+      "road_closure_rate": 0.1,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Sunday",
+      "day_of_week": 6,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 12.88,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.05,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    }
+  ],
+  "BTP044 - Sagar Theatre Junction": [
+    {
+      "day_name": "Monday",
+      "day_of_week": 0,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 2.8,
+      "avg_clearance_min": 163.9,
+      "road_closure_rate": 0.1,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Monday",
+      "day_of_week": 0,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 1.87,
+      "avg_clearance_min": 51.9,
+      "road_closure_rate": 0.05,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Monday",
+      "day_of_week": 0,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 4.53,
+      "avg_clearance_min": 51.7,
+      "road_closure_rate": 0.01,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Monday",
+      "day_of_week": 0,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 6.39,
+      "avg_clearance_min": 52.7,
+      "road_closure_rate": 0.11,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Tuesday",
+      "day_of_week": 1,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 2.1,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.02,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Tuesday",
+      "day_of_week": 1,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 3.41,
+      "avg_clearance_min": 49.6,
+      "road_closure_rate": 0.04,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Tuesday",
+      "day_of_week": 1,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 4.85,
+      "avg_clearance_min": 132.9,
+      "road_closure_rate": 0.13,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Tuesday",
+      "day_of_week": 1,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 4.25,
+      "avg_clearance_min": 57.6,
+      "road_closure_rate": 0.04,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Wednesday",
+      "day_of_week": 2,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 1.35,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Wednesday",
+      "day_of_week": 2,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 2.57,
+      "avg_clearance_min": 55.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Wednesday",
+      "day_of_week": 2,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 4.76,
+      "avg_clearance_min": 51.4,
+      "road_closure_rate": 0.25,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Wednesday",
+      "day_of_week": 2,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 6.63,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.15,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Thursday",
+      "day_of_week": 3,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 1.73,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.19,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Thursday",
+      "day_of_week": 3,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 2.89,
+      "avg_clearance_min": 50.2,
+      "road_closure_rate": 0.02,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Thursday",
+      "day_of_week": 3,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 2.38,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.43,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Thursday",
+      "day_of_week": 3,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 5.51,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.37,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Friday",
+      "day_of_week": 4,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 2.29,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.02,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Friday",
+      "day_of_week": 4,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 2.47,
+      "avg_clearance_min": 48.1,
+      "road_closure_rate": 0.0,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Friday",
+      "day_of_week": 4,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 3.69,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Friday",
+      "day_of_week": 4,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 4.15,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.02,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Saturday",
+      "day_of_week": 5,
+      "time_period": "Afternoon (2\u20135 PM)",
+      "incidents_per_week": 0.65,
+      "avg_clearance_min": 652.3,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Saturday",
+      "day_of_week": 5,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 3.73,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.01,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Saturday",
+      "day_of_week": 5,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 3.59,
+      "avg_clearance_min": 56.1,
+      "road_closure_rate": 0.06,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Saturday",
+      "day_of_week": 5,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 4.95,
+      "avg_clearance_min": 63.0,
+      "road_closure_rate": 0.02,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Saturday",
+      "day_of_week": 5,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 4.67,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.01,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Sunday",
+      "day_of_week": 6,
+      "time_period": "Afternoon (2\u20135 PM)",
+      "incidents_per_week": 0.7,
+      "avg_clearance_min": 212.5,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Sunday",
+      "day_of_week": 6,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 5.27,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.03,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Sunday",
+      "day_of_week": 6,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 2.75,
+      "avg_clearance_min": 45.6,
+      "road_closure_rate": 0.07,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Sunday",
+      "day_of_week": 6,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 6.72,
+      "avg_clearance_min": 85.2,
+      "road_closure_rate": 0.1,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Sunday",
+      "day_of_week": 6,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 6.44,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.16,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    }
+  ],
+  "BTP040 - Elite Junction": [
+    {
+      "day_name": "Monday",
+      "day_of_week": 0,
+      "time_period": "Afternoon (2\u20135 PM)",
+      "incidents_per_week": 0.51,
+      "avg_clearance_min": 484.5,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Monday",
+      "day_of_week": 0,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 1.91,
+      "avg_clearance_min": 60.1,
+      "road_closure_rate": 0.0,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Monday",
+      "day_of_week": 0,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 3.83,
+      "avg_clearance_min": 77.5,
+      "road_closure_rate": 0.04,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Monday",
+      "day_of_week": 0,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 6.72,
+      "avg_clearance_min": 166.1,
+      "road_closure_rate": 0.03,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Monday",
+      "day_of_week": 0,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 4.29,
+      "avg_clearance_min": 114.8,
+      "road_closure_rate": 0.0,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Tuesday",
+      "day_of_week": 1,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 1.59,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Tuesday",
+      "day_of_week": 1,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 2.33,
+      "avg_clearance_min": 55.5,
+      "road_closure_rate": 0.0,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Tuesday",
+      "day_of_week": 1,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 5.04,
+      "avg_clearance_min": 49.9,
+      "road_closure_rate": 0.05,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Tuesday",
+      "day_of_week": 1,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 4.39,
+      "avg_clearance_min": 71.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Wednesday",
+      "day_of_week": 2,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 1.45,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Wednesday",
+      "day_of_week": 2,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 3.03,
+      "avg_clearance_min": 46.5,
+      "road_closure_rate": 0.0,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Wednesday",
+      "day_of_week": 2,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 2.19,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.02,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Wednesday",
+      "day_of_week": 2,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 5.97,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.01,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Thursday",
+      "day_of_week": 3,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 4.34,
+      "avg_clearance_min": 51.4,
+      "road_closure_rate": 0.05,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Thursday",
+      "day_of_week": 3,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 2.89,
+      "avg_clearance_min": 77.3,
+      "road_closure_rate": 0.03,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Thursday",
+      "day_of_week": 3,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 1.91,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.32,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Friday",
+      "day_of_week": 4,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 1.49,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Friday",
+      "day_of_week": 4,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 4.01,
+      "avg_clearance_min": 53.8,
+      "road_closure_rate": 0.01,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Friday",
+      "day_of_week": 4,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 1.63,
+      "avg_clearance_min": 82.8,
+      "road_closure_rate": 0.0,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Friday",
+      "day_of_week": 4,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 3.78,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Saturday",
+      "day_of_week": 5,
+      "time_period": "Afternoon (2\u20135 PM)",
+      "incidents_per_week": 1.21,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.12,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Saturday",
+      "day_of_week": 5,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 2.38,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Saturday",
+      "day_of_week": 5,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 7.98,
+      "avg_clearance_min": 72.5,
+      "road_closure_rate": 0.0,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Saturday",
+      "day_of_week": 5,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 7.05,
+      "avg_clearance_min": 76.0,
+      "road_closure_rate": 0.05,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Saturday",
+      "day_of_week": 5,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 4.76,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.07,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Sunday",
+      "day_of_week": 6,
+      "time_period": "Afternoon (2\u20135 PM)",
+      "incidents_per_week": 1.17,
+      "avg_clearance_min": 294.6,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Sunday",
+      "day_of_week": 6,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 1.77,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Sunday",
+      "day_of_week": 6,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 2.1,
+      "avg_clearance_min": 115.1,
+      "road_closure_rate": 0.02,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Sunday",
+      "day_of_week": 6,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 5.55,
+      "avg_clearance_min": 148.6,
+      "road_closure_rate": 0.01,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Sunday",
+      "day_of_week": 6,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 7.56,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.01,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    }
+  ],
+  "BTP027 - Modi Bridge Junction": [
+    {
+      "day_name": "Monday",
+      "day_of_week": 0,
+      "time_period": "Afternoon (2\u20135 PM)",
+      "incidents_per_week": 0.65,
+      "avg_clearance_min": 464.2,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Monday",
+      "day_of_week": 0,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 0.84,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Monday",
+      "day_of_week": 0,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 0.93,
+      "avg_clearance_min": 76.0,
+      "road_closure_rate": 0.45,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Monday",
+      "day_of_week": 0,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 1.12,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Monday",
+      "day_of_week": 0,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 6.86,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.03,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Tuesday",
+      "day_of_week": 1,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 1.21,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.23,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Tuesday",
+      "day_of_week": 1,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 3.03,
+      "avg_clearance_min": 45.3,
+      "road_closure_rate": 0.0,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Tuesday",
+      "day_of_week": 1,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 2.52,
+      "avg_clearance_min": 62.8,
+      "road_closure_rate": 0.02,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Tuesday",
+      "day_of_week": 1,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 4.11,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Wednesday",
+      "day_of_week": 2,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 1.31,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Wednesday",
+      "day_of_week": 2,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 3.55,
+      "avg_clearance_min": 49.9,
+      "road_closure_rate": 0.0,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Wednesday",
+      "day_of_week": 2,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 3.97,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.04,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Wednesday",
+      "day_of_week": 2,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 6.72,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Thursday",
+      "day_of_week": 3,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 3.13,
+      "avg_clearance_min": 49.4,
+      "road_closure_rate": 0.0,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Thursday",
+      "day_of_week": 3,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 1.4,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Thursday",
+      "day_of_week": 3,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 2.52,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Friday",
+      "day_of_week": 4,
+      "time_period": "Afternoon (2\u20135 PM)",
+      "incidents_per_week": 0.7,
+      "avg_clearance_min": 314.3,
+      "road_closure_rate": 0.07,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Friday",
+      "day_of_week": 4,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 1.26,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Friday",
+      "day_of_week": 4,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 3.55,
+      "avg_clearance_min": 44.7,
+      "road_closure_rate": 0.01,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Friday",
+      "day_of_week": 4,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 0.75,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.06,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Friday",
+      "day_of_week": 4,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 7.84,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.11,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Saturday",
+      "day_of_week": 5,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 4.99,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Saturday",
+      "day_of_week": 5,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 3.31,
+      "avg_clearance_min": 44.7,
+      "road_closure_rate": 0.0,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Saturday",
+      "day_of_week": 5,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 1.12,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.12,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Saturday",
+      "day_of_week": 5,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 2.15,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.02,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Sunday",
+      "day_of_week": 6,
+      "time_period": "Afternoon (2\u20135 PM)",
+      "incidents_per_week": 0.56,
+      "avg_clearance_min": 92.5,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Sunday",
+      "day_of_week": 6,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 1.12,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Sunday",
+      "day_of_week": 6,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 2.71,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.03,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Sunday",
+      "day_of_week": 6,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 5.13,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.26,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    }
+  ],
+  "BTP211 - Central Street Junction": [
+    {
+      "day_name": "Monday",
+      "day_of_week": 0,
+      "time_period": "Afternoon (2\u20135 PM)",
+      "incidents_per_week": 0.61,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Monday",
+      "day_of_week": 0,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 2.94,
+      "avg_clearance_min": 90.4,
+      "road_closure_rate": 0.02,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Monday",
+      "day_of_week": 0,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 3.22,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.07,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Monday",
+      "day_of_week": 0,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 4.11,
+      "avg_clearance_min": 141.5,
+      "road_closure_rate": 0.17,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Monday",
+      "day_of_week": 0,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 2.85,
+      "avg_clearance_min": 88.8,
+      "road_closure_rate": 0.2,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Tuesday",
+      "day_of_week": 1,
+      "time_period": "Afternoon (2\u20135 PM)",
+      "incidents_per_week": 1.45,
+      "avg_clearance_min": 562.9,
+      "road_closure_rate": 0.45,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Tuesday",
+      "day_of_week": 1,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 0.93,
+      "avg_clearance_min": 73.4,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Tuesday",
+      "day_of_week": 1,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 1.07,
+      "avg_clearance_min": 175.9,
+      "road_closure_rate": 0.04,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Wednesday",
+      "day_of_week": 2,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 0.98,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Wednesday",
+      "day_of_week": 2,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 1.96,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Wednesday",
+      "day_of_week": 2,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 1.77,
+      "avg_clearance_min": 93.9,
+      "road_closure_rate": 0.11,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Wednesday",
+      "day_of_week": 2,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 0.75,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.06,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Thursday",
+      "day_of_week": 3,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 2.24,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.04,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Thursday",
+      "day_of_week": 3,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 2.19,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.06,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Thursday",
+      "day_of_week": 3,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 2.75,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Friday",
+      "day_of_week": 4,
+      "time_period": "Afternoon (2\u20135 PM)",
+      "incidents_per_week": 0.89,
+      "avg_clearance_min": 412.3,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Friday",
+      "day_of_week": 4,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 0.84,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Friday",
+      "day_of_week": 4,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 1.31,
+      "avg_clearance_min": 61.0,
+      "road_closure_rate": 0.07,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Friday",
+      "day_of_week": 4,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 3.03,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.17,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Friday",
+      "day_of_week": 4,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 1.73,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Saturday",
+      "day_of_week": 5,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 0.51,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Saturday",
+      "day_of_week": 5,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 0.98,
+      "avg_clearance_min": 53.9,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Saturday",
+      "day_of_week": 5,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 3.59,
+      "avg_clearance_min": 88.1,
+      "road_closure_rate": 0.09,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Saturday",
+      "day_of_week": 5,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 1.82,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.05,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Sunday",
+      "day_of_week": 6,
+      "time_period": "Afternoon (2\u20135 PM)",
+      "incidents_per_week": 1.03,
+      "avg_clearance_min": 95.7,
+      "road_closure_rate": 0.36,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Sunday",
+      "day_of_week": 6,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 0.65,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.14,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Sunday",
+      "day_of_week": 6,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 4.62,
+      "avg_clearance_min": 51.4,
+      "road_closure_rate": 0.04,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Sunday",
+      "day_of_week": 6,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 6.44,
+      "avg_clearance_min": 153.1,
+      "road_closure_rate": 0.28,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Sunday",
+      "day_of_week": 6,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 3.69,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.18,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    }
+  ],
+  "BTP057 - Anand Rao Junction": [
+    {
+      "day_name": "Monday",
+      "day_of_week": 0,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 3.03,
+      "avg_clearance_min": 125.6,
+      "road_closure_rate": 0.03,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Monday",
+      "day_of_week": 0,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 0.7,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Monday",
+      "day_of_week": 0,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 0.7,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Tuesday",
+      "day_of_week": 1,
+      "time_period": "Afternoon (2\u20135 PM)",
+      "incidents_per_week": 0.79,
+      "avg_clearance_min": 81.2,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Tuesday",
+      "day_of_week": 1,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 0.84,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Tuesday",
+      "day_of_week": 1,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 2.94,
+      "avg_clearance_min": 40.7,
+      "road_closure_rate": 0.0,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Tuesday",
+      "day_of_week": 1,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 1.96,
+      "avg_clearance_min": 75.8,
+      "road_closure_rate": 0.12,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Tuesday",
+      "day_of_week": 1,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 2.43,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.08,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Wednesday",
+      "day_of_week": 2,
+      "time_period": "Afternoon (2\u20135 PM)",
+      "incidents_per_week": 0.75,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.12,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Wednesday",
+      "day_of_week": 2,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 0.89,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Wednesday",
+      "day_of_week": 2,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 3.22,
+      "avg_clearance_min": 42.9,
+      "road_closure_rate": 0.01,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Wednesday",
+      "day_of_week": 2,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 0.93,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.05,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Wednesday",
+      "day_of_week": 2,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 1.12,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Thursday",
+      "day_of_week": 3,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 1.49,
+      "avg_clearance_min": 35.9,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Thursday",
+      "day_of_week": 3,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 1.82,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.05,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Thursday",
+      "day_of_week": 3,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 3.27,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.06,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Friday",
+      "day_of_week": 4,
+      "time_period": "Afternoon (2\u20135 PM)",
+      "incidents_per_week": 0.51,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.36,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Friday",
+      "day_of_week": 4,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 0.75,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Friday",
+      "day_of_week": 4,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 3.31,
+      "avg_clearance_min": 58.8,
+      "road_closure_rate": 0.13,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Friday",
+      "day_of_week": 4,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 2.8,
+      "avg_clearance_min": 55.6,
+      "road_closure_rate": 0.12,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Friday",
+      "day_of_week": 4,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 2.01,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Saturday",
+      "day_of_week": 5,
+      "time_period": "Afternoon (2\u20135 PM)",
+      "incidents_per_week": 1.21,
+      "avg_clearance_min": 196.6,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Saturday",
+      "day_of_week": 5,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 0.61,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Saturday",
+      "day_of_week": 5,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 2.94,
+      "avg_clearance_min": 52.7,
+      "road_closure_rate": 0.0,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Saturday",
+      "day_of_week": 5,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 1.4,
+      "avg_clearance_min": 88.2,
+      "road_closure_rate": 0.07,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Saturday",
+      "day_of_week": 5,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 3.36,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Sunday",
+      "day_of_week": 6,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 0.98,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Sunday",
+      "day_of_week": 6,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 5.32,
+      "avg_clearance_min": 52.9,
+      "road_closure_rate": 0.02,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Sunday",
+      "day_of_week": 6,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 2.94,
+      "avg_clearance_min": 159.4,
+      "road_closure_rate": 0.0,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Sunday",
+      "day_of_week": 6,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 2.75,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.02,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    }
+  ],
+  "BTP058 - Subbanna Junction": [
+    {
+      "day_name": "Monday",
+      "day_of_week": 0,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 0.61,
+      "avg_clearance_min": 550.6,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Monday",
+      "day_of_week": 0,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 7.09,
+      "avg_clearance_min": 56.2,
+      "road_closure_rate": 0.05,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Monday",
+      "day_of_week": 0,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 0.7,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.07,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Tuesday",
+      "day_of_week": 1,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 0.61,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Tuesday",
+      "day_of_week": 1,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 3.87,
+      "avg_clearance_min": 77.5,
+      "road_closure_rate": 0.0,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Tuesday",
+      "day_of_week": 1,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 0.98,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Tuesday",
+      "day_of_week": 1,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 1.54,
+      "avg_clearance_min": 273.6,
+      "road_closure_rate": 0.0,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Wednesday",
+      "day_of_week": 2,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 4.53,
+      "avg_clearance_min": 84.3,
+      "road_closure_rate": 0.01,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Wednesday",
+      "day_of_week": 2,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 0.7,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.07,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Thursday",
+      "day_of_week": 3,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 5.27,
+      "avg_clearance_min": 44.3,
+      "road_closure_rate": 0.04,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Friday",
+      "day_of_week": 4,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 1.31,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.07,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Friday",
+      "day_of_week": 4,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 5.93,
+      "avg_clearance_min": 62.3,
+      "road_closure_rate": 0.01,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Friday",
+      "day_of_week": 4,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 0.7,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.2,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Saturday",
+      "day_of_week": 5,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 4.15,
+      "avg_clearance_min": 55.0,
+      "road_closure_rate": 0.01,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Saturday",
+      "day_of_week": 5,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 0.61,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.08,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Saturday",
+      "day_of_week": 5,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 1.35,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Sunday",
+      "day_of_week": 6,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 0.56,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Sunday",
+      "day_of_week": 6,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 6.16,
+      "avg_clearance_min": 69.9,
+      "road_closure_rate": 0.04,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Sunday",
+      "day_of_week": 6,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 1.4,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Sunday",
+      "day_of_week": 6,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 1.54,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    }
+  ],
+  "BTP083 - AS Char Street, Mysore Road": [
+    {
+      "day_name": "Monday",
+      "day_of_week": 0,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 4.34,
+      "avg_clearance_min": 60.2,
+      "road_closure_rate": 0.15,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Tuesday",
+      "day_of_week": 1,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 0.56,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.67,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Tuesday",
+      "day_of_week": 1,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 4.06,
+      "avg_clearance_min": 51.7,
+      "road_closure_rate": 0.32,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Tuesday",
+      "day_of_week": 1,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 1.63,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.31,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Tuesday",
+      "day_of_week": 1,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 2.15,
+      "avg_clearance_min": 102.0,
+      "road_closure_rate": 0.8,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Wednesday",
+      "day_of_week": 2,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 0.51,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.73,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Wednesday",
+      "day_of_week": 2,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 3.08,
+      "avg_clearance_min": 49.0,
+      "road_closure_rate": 0.02,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Wednesday",
+      "day_of_week": 2,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 0.65,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.07,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Wednesday",
+      "day_of_week": 2,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 1.73,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.73,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Thursday",
+      "day_of_week": 3,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 3.45,
+      "avg_clearance_min": 53.2,
+      "road_closure_rate": 0.32,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Thursday",
+      "day_of_week": 3,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 0.75,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Thursday",
+      "day_of_week": 3,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 0.79,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.82,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Friday",
+      "day_of_week": 4,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 2.99,
+      "avg_clearance_min": 44.1,
+      "road_closure_rate": 0.08,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Friday",
+      "day_of_week": 4,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 1.59,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.18,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Friday",
+      "day_of_week": 4,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 2.1,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.13,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Friday",
+      "day_of_week": 4,
+      "time_period": "Night (8 PM\u2013midnight)",
+      "incidents_per_week": 0.51,
+      "avg_clearance_min": 111.5,
+      "road_closure_rate": 0.27,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Saturday",
+      "day_of_week": 5,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 3.5,
+      "avg_clearance_min": 64.6,
+      "road_closure_rate": 0.0,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Saturday",
+      "day_of_week": 5,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 0.75,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.31,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Saturday",
+      "day_of_week": 5,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 0.93,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.95,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Sunday",
+      "day_of_week": 6,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 1.03,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.68,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Sunday",
+      "day_of_week": 6,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 7.0,
+      "avg_clearance_min": 44.6,
+      "road_closure_rate": 0.05,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Sunday",
+      "day_of_week": 6,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 1.45,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.35,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Sunday",
+      "day_of_week": 6,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 1.21,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.58,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Sunday",
+      "day_of_week": 6,
+      "time_period": "Night (8 PM\u2013midnight)",
+      "incidents_per_week": 1.91,
+      "avg_clearance_min": 38.2,
+      "road_closure_rate": 0.02,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    }
+  ],
+  "BTP080 - NR Road, SP Road Junction": [
+    {
+      "day_name": "Monday",
+      "day_of_week": 0,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 0.51,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.27,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Tuesday",
+      "day_of_week": 1,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 2.33,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Tuesday",
+      "day_of_week": 1,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 2.71,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Tuesday",
+      "day_of_week": 1,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 4.95,
+      "avg_clearance_min": 304.4,
+      "road_closure_rate": 0.05,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Tuesday",
+      "day_of_week": 1,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 2.71,
+      "avg_clearance_min": 405.4,
+      "road_closure_rate": 0.03,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Wednesday",
+      "day_of_week": 2,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 1.12,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.12,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Wednesday",
+      "day_of_week": 2,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 4.01,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.03,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Wednesday",
+      "day_of_week": 2,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 0.56,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.08,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Thursday",
+      "day_of_week": 3,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 0.56,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Thursday",
+      "day_of_week": 3,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 3.73,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.28,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Thursday",
+      "day_of_week": 3,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 1.68,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.22,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Friday",
+      "day_of_week": 4,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 0.75,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Friday",
+      "day_of_week": 4,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 2.75,
+      "avg_clearance_min": 56.4,
+      "road_closure_rate": 0.0,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Friday",
+      "day_of_week": 4,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 1.21,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Saturday",
+      "day_of_week": 5,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 4.85,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.03,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Saturday",
+      "day_of_week": 5,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 0.65,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.07,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Saturday",
+      "day_of_week": 5,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 3.22,
+      "avg_clearance_min": 102.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Saturday",
+      "day_of_week": 5,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 3.27,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Sunday",
+      "day_of_week": 6,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 1.63,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.03,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Sunday",
+      "day_of_week": 6,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 0.65,
+      "avg_clearance_min": 85.3,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Sunday",
+      "day_of_week": 6,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 1.87,
+      "avg_clearance_min": 95.0,
+      "road_closure_rate": 0.07,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Sunday",
+      "day_of_week": 6,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 2.71,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.14,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    }
+  ],
+  "BTP045 - Danvanthri Road Junction": [
+    {
+      "day_name": "Monday",
+      "day_of_week": 0,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 1.03,
+      "avg_clearance_min": 264.4,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Monday",
+      "day_of_week": 0,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 1.96,
+      "avg_clearance_min": 215.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Monday",
+      "day_of_week": 0,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 2.89,
+      "avg_clearance_min": 57.1,
+      "road_closure_rate": 0.15,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Monday",
+      "day_of_week": 0,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 1.21,
+      "avg_clearance_min": 65.7,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Tuesday",
+      "day_of_week": 1,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 1.59,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.03,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Tuesday",
+      "day_of_week": 1,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 1.31,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.04,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Tuesday",
+      "day_of_week": 1,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 0.56,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Wednesday",
+      "day_of_week": 2,
+      "time_period": "Afternoon (2\u20135 PM)",
+      "incidents_per_week": 0.7,
+      "avg_clearance_min": 83.3,
+      "road_closure_rate": 0.47,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Wednesday",
+      "day_of_week": 2,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 0.93,
+      "avg_clearance_min": 39.8,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Wednesday",
+      "day_of_week": 2,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 1.35,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.03,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Thursday",
+      "day_of_week": 3,
+      "time_period": "Afternoon (2\u20135 PM)",
+      "incidents_per_week": 0.65,
+      "avg_clearance_min": 450.8,
+      "road_closure_rate": 0.07,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Thursday",
+      "day_of_week": 3,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 1.21,
+      "avg_clearance_min": 71.1,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Thursday",
+      "day_of_week": 3,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 1.68,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Thursday",
+      "day_of_week": 3,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 0.93,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.05,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Friday",
+      "day_of_week": 4,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 0.51,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Friday",
+      "day_of_week": 4,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 1.07,
+      "avg_clearance_min": 124.6,
+      "road_closure_rate": 0.04,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Friday",
+      "day_of_week": 4,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 2.61,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.07,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Saturday",
+      "day_of_week": 5,
+      "time_period": "Afternoon (2\u20135 PM)",
+      "incidents_per_week": 0.93,
+      "avg_clearance_min": 215.8,
+      "road_closure_rate": 0.15,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Saturday",
+      "day_of_week": 5,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 0.93,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Saturday",
+      "day_of_week": 5,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 1.91,
+      "avg_clearance_min": 52.3,
+      "road_closure_rate": 0.12,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Saturday",
+      "day_of_week": 5,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 2.33,
+      "avg_clearance_min": 216.9,
+      "road_closure_rate": 0.36,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Saturday",
+      "day_of_week": 5,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 2.52,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.19,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Sunday",
+      "day_of_week": 6,
+      "time_period": "Afternoon (2\u20135 PM)",
+      "incidents_per_week": 0.98,
+      "avg_clearance_min": 117.1,
+      "road_closure_rate": 0.1,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Sunday",
+      "day_of_week": 6,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 1.03,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Sunday",
+      "day_of_week": 6,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 1.4,
+      "avg_clearance_min": 42.4,
+      "road_closure_rate": 0.03,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Sunday",
+      "day_of_week": 6,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 1.82,
+      "avg_clearance_min": 229.4,
+      "road_closure_rate": 0.13,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Sunday",
+      "day_of_week": 6,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 1.73,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    }
+  ],
+  "BTP001 - 10th Cross, Dr. Rajkumar Road": [
+    {
+      "day_name": "Monday",
+      "day_of_week": 0,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 0.89,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Monday",
+      "day_of_week": 0,
+      "time_period": "Evening peak (5\u20138 PM)",
+      "incidents_per_week": 0.51,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Monday",
+      "day_of_week": 0,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 2.94,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.02,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Monday",
+      "day_of_week": 0,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 0.93,
+      "avg_clearance_min": 274.3,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Tuesday",
+      "day_of_week": 1,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 1.17,
+      "avg_clearance_min": 150.4,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Wednesday",
+      "day_of_week": 2,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 1.31,
+      "avg_clearance_min": 42.9,
+      "road_closure_rate": 0.07,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Wednesday",
+      "day_of_week": 2,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 2.01,
+      "avg_clearance_min": 90.7,
+      "road_closure_rate": 0.0,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Wednesday",
+      "day_of_week": 2,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 1.59,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Thursday",
+      "day_of_week": 3,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 1.26,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Thursday",
+      "day_of_week": 3,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 1.31,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Thursday",
+      "day_of_week": 3,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 0.84,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Thursday",
+      "day_of_week": 3,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 0.7,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Friday",
+      "day_of_week": 4,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 0.56,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Saturday",
+      "day_of_week": 5,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 1.45,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Saturday",
+      "day_of_week": 5,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 3.83,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Saturday",
+      "day_of_week": 5,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 1.17,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Saturday",
+      "day_of_week": 5,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 2.15,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.02,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Sunday",
+      "day_of_week": 6,
+      "time_period": "Afternoon (2\u20135 PM)",
+      "incidents_per_week": 0.51,
+      "avg_clearance_min": 209.9,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Sunday",
+      "day_of_week": 6,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 2.75,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Sunday",
+      "day_of_week": 6,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 2.89,
+      "avg_clearance_min": 42.7,
+      "road_closure_rate": 0.0,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Sunday",
+      "day_of_week": 6,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 3.41,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Sunday",
+      "day_of_week": 6,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 2.99,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.02,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    }
+  ],
+  "BTP023 - Mahalaxmi Layout Entrance": [
+    {
+      "day_name": "Monday",
+      "day_of_week": 0,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 0.51,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Monday",
+      "day_of_week": 0,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 1.12,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Monday",
+      "day_of_week": 0,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 1.73,
+      "avg_clearance_min": 55.3,
+      "road_closure_rate": 0.03,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Monday",
+      "day_of_week": 0,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 1.12,
+      "avg_clearance_min": 66.1,
+      "road_closure_rate": 0.04,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Tuesday",
+      "day_of_week": 1,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 1.12,
+      "avg_clearance_min": 51.4,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Tuesday",
+      "day_of_week": 1,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 2.24,
+      "avg_clearance_min": 56.2,
+      "road_closure_rate": 0.08,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Tuesday",
+      "day_of_week": 1,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 0.61,
+      "avg_clearance_min": 128.6,
+      "road_closure_rate": 0.31,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Wednesday",
+      "day_of_week": 2,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 0.79,
+      "avg_clearance_min": 69.3,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Wednesday",
+      "day_of_week": 2,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 2.75,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Thursday",
+      "day_of_week": 3,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 1.59,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Friday",
+      "day_of_week": 4,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 0.51,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Friday",
+      "day_of_week": 4,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 1.03,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Friday",
+      "day_of_week": 4,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 2.89,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.05,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Friday",
+      "day_of_week": 4,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 2.47,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.04,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Saturday",
+      "day_of_week": 5,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 1.17,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Saturday",
+      "day_of_week": 5,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 1.59,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Saturday",
+      "day_of_week": 5,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 3.22,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Saturday",
+      "day_of_week": 5,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 0.89,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Sunday",
+      "day_of_week": 6,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 1.35,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Sunday",
+      "day_of_week": 6,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 0.89,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Sunday",
+      "day_of_week": 6,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 1.59,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Sunday",
+      "day_of_week": 6,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 2.01,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    }
+  ],
+  "BTP020 - Hosahalli Metro Station": [
+    {
+      "day_name": "Tuesday",
+      "day_of_week": 1,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 1.68,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Tuesday",
+      "day_of_week": 1,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 1.49,
+      "avg_clearance_min": 45.7,
+      "road_closure_rate": 0.03,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Tuesday",
+      "day_of_week": 1,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 3.97,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Wednesday",
+      "day_of_week": 2,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 3.97,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Wednesday",
+      "day_of_week": 2,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 1.73,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Thursday",
+      "day_of_week": 3,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 0.84,
+      "avg_clearance_min": 50.4,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Thursday",
+      "day_of_week": 3,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 0.7,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Thursday",
+      "day_of_week": 3,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 0.56,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.08,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Friday",
+      "day_of_week": 4,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 3.5,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.21,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Friday",
+      "day_of_week": 4,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 1.63,
+      "avg_clearance_min": 45.2,
+      "road_closure_rate": 0.0,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Friday",
+      "day_of_week": 4,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 0.56,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Friday",
+      "day_of_week": 4,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 2.57,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Saturday",
+      "day_of_week": 5,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 1.87,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Saturday",
+      "day_of_week": 5,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 4.25,
+      "avg_clearance_min": 41.3,
+      "road_closure_rate": 0.0,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Saturday",
+      "day_of_week": 5,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 0.56,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    }
+  ],
+  "BTP048 - Shanthala Junction": [
+    {
+      "day_name": "Monday",
+      "day_of_week": 0,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 0.56,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Monday",
+      "day_of_week": 0,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 0.56,
+      "avg_clearance_min": 45.9,
+      "road_closure_rate": 0.08,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Monday",
+      "day_of_week": 0,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 0.75,
+      "avg_clearance_min": 170.6,
+      "road_closure_rate": 0.25,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Monday",
+      "day_of_week": 0,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 1.54,
+      "avg_clearance_min": 282.7,
+      "road_closure_rate": 0.03,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Tuesday",
+      "day_of_week": 1,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 0.65,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.71,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Tuesday",
+      "day_of_week": 1,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 3.27,
+      "avg_clearance_min": 121.8,
+      "road_closure_rate": 0.21,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Wednesday",
+      "day_of_week": 2,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 1.07,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.35,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Wednesday",
+      "day_of_week": 2,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 4.43,
+      "avg_clearance_min": 52.8,
+      "road_closure_rate": 0.47,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Thursday",
+      "day_of_week": 3,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 0.79,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Thursday",
+      "day_of_week": 3,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 0.7,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Friday",
+      "day_of_week": 4,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 1.07,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.17,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Friday",
+      "day_of_week": 4,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 0.61,
+      "avg_clearance_min": 47.7,
+      "road_closure_rate": 0.08,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Saturday",
+      "day_of_week": 5,
+      "time_period": "Afternoon (2\u20135 PM)",
+      "incidents_per_week": 0.93,
+      "avg_clearance_min": 545.7,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Saturday",
+      "day_of_week": 5,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 0.51,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.18,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Saturday",
+      "day_of_week": 5,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 1.45,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Saturday",
+      "day_of_week": 5,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 1.73,
+      "avg_clearance_min": 80.1,
+      "road_closure_rate": 0.11,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Saturday",
+      "day_of_week": 5,
+      "time_period": "Morning peak (7\u201310 AM)",
+      "incidents_per_week": 3.83,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "MANDATORY - deploy 2 officers"
+    },
+    {
+      "day_name": "Sunday",
+      "day_of_week": 6,
+      "time_period": "Early morning (5\u20137 AM)",
+      "incidents_per_week": 0.56,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.0,
+      "recommendation": "ADVISORY - include in patrol route"
+    },
+    {
+      "day_name": "Sunday",
+      "day_of_week": 6,
+      "time_period": "Late night (0\u20135 AM)",
+      "incidents_per_week": 2.61,
+      "avg_clearance_min": 54.9,
+      "road_closure_rate": 0.07,
+      "recommendation": "RECOMMENDED - deploy 1 officer"
+    },
+    {
+      "day_name": "Sunday",
+      "day_of_week": 6,
+      "time_period": "Midday (10 AM\u20132 PM)",
+      "incidents_per_week": 1.07,
+      "avg_clearance_min": 45.0,
+      "road_closure_rate": 0.43,
+      "recommendation": "ADVISORY - include in patrol route"
+    }
+  ]
+}

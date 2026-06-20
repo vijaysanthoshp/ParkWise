@@ -1,0 +1,78 @@
+{
+  "model_type": "LightGBM Enforcement Demand Forecast",
+  "target_variable": "violation_count (violations per junction-hour-day slot)",
+  "cv_folds": [
+    {
+      "fold": 1,
+      "train_size": 1180,
+      "test_size": 1180,
+      "mae_violations": 0.39
+    },
+    {
+      "fold": 2,
+      "train_size": 2360,
+      "test_size": 1180,
+      "mae_violations": 1.44
+    },
+    {
+      "fold": 3,
+      "train_size": 3540,
+      "test_size": 1180,
+      "mae_violations": 2.93
+    },
+    {
+      "fold": 4,
+      "train_size": 4720,
+      "test_size": 1180,
+      "mae_violations": 6.68
+    },
+    {
+      "fold": 5,
+      "train_size": 5900,
+      "test_size": 1180,
+      "mae_violations": 84.96
+    }
+  ],
+  "final_mae_violations": 7.04,
+  "naive_baseline_mae": 27.34,
+  "improvement_pct": 74.3,
+  "total_slots": 7081,
+  "demand_distribution": {
+    "LOW": 4293,
+    "MEDIUM": 1511,
+    "HIGH": 1099,
+    "MINIMAL": 178
+  },
+  "feature_importance": {
+    "junction_encoded": 15.778,
+    "hour_of_day": 6.06,
+    "parking_prob_mean": 3.614,
+    "has_junction": 3.614,
+    "avg_parking_score": 2.865,
+    "zone_encoded": 1.919,
+    "day_of_week": 1.247,
+    "nearest_zone_encoded": 1.109,
+    "is_weekend": 0.36,
+    "dominant_veh_encoded": 0.177,
+    "is_peak_hour": 0.103
+  },
+  "features_used": [
+    "junction_encoded",
+    "hour_of_day",
+    "day_of_week",
+    "is_peak_hour",
+    "is_weekend",
+    "zone_encoded",
+    "dominant_veh_encoded",
+    "nearest_zone_encoded",
+    "avg_parking_score",
+    "parking_prob_mean",
+    "has_junction"
+  ],
+  "officer_thresholds": {
+    "HIGH (3+ officers)": "16+ violations/slot",
+    "MEDIUM (2 officers)": "6-15 violations/slot",
+    "LOW (1 officer)": "1-5 violations/slot",
+    "MINIMAL": "0 violations/slot"
+  }
+}

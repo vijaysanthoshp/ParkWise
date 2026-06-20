@@ -1,0 +1,1793 @@
+{
+  "junction_cascade": [
+    {
+      "junction": "BTP082 - KR Market Junction",
+      "active_days": 144,
+      "total_violations": 6564,
+      "recurrence_rate": 0.9536,
+      "avg_daily_violations": 45.58,
+      "avg_downstream": 45.58,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP051 - Safina Plaza Junction",
+      "active_days": 138,
+      "total_violations": 6110,
+      "recurrence_rate": 0.9139,
+      "avg_daily_violations": 44.28,
+      "avg_downstream": 44.28,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP040 - Elite Junction",
+      "active_days": 140,
+      "total_violations": 4966,
+      "recurrence_rate": 0.9272,
+      "avg_daily_violations": 35.47,
+      "avg_downstream": 35.47,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP044 - Sagar Theatre Junction",
+      "active_days": 148,
+      "total_violations": 4662,
+      "recurrence_rate": 0.9801,
+      "avg_daily_violations": 31.5,
+      "avg_downstream": 31.5,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP058 - Subbanna Junction",
+      "active_days": 140,
+      "total_violations": 2751,
+      "recurrence_rate": 0.9272,
+      "avg_daily_violations": 19.65,
+      "avg_downstream": 19.65,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP027 - Modi Bridge Junction",
+      "active_days": 111,
+      "total_violations": 2157,
+      "recurrence_rate": 0.7351,
+      "avg_daily_violations": 19.43,
+      "avg_downstream": 19.43,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP211 - Central Street Junction",
+      "active_days": 108,
+      "total_violations": 2000,
+      "recurrence_rate": 0.7152,
+      "avg_daily_violations": 18.52,
+      "avg_downstream": 18.52,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP080 - NR Road, SP Road Junction",
+      "active_days": 104,
+      "total_violations": 1729,
+      "recurrence_rate": 0.6887,
+      "avg_daily_violations": 16.62,
+      "avg_downstream": 16.62,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP020 - Hosahalli Metro Station",
+      "active_days": 81,
+      "total_violations": 1274,
+      "recurrence_rate": 0.5364,
+      "avg_daily_violations": 15.73,
+      "avg_downstream": 15.73,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP001 - 10th Cross, Dr. Rajkumar Road",
+      "active_days": 91,
+      "total_violations": 1386,
+      "recurrence_rate": 0.6026,
+      "avg_daily_violations": 15.23,
+      "avg_downstream": 15.23,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP186 - 9th Cross, 4th Main, Jayanagar",
+      "active_days": 29,
+      "total_violations": 440,
+      "recurrence_rate": 0.1921,
+      "avg_daily_violations": 15.17,
+      "avg_downstream": 15.17,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP017 - Attiguppe Circle",
+      "active_days": 16,
+      "total_violations": 230,
+      "recurrence_rate": 0.106,
+      "avg_daily_violations": 14.38,
+      "avg_downstream": 14.38,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP057 - Anand Rao Junction",
+      "active_days": 120,
+      "total_violations": 1586,
+      "recurrence_rate": 0.7947,
+      "avg_daily_violations": 13.22,
+      "avg_downstream": 13.22,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP083 - AS Char Street, Mysore Road",
+      "active_days": 111,
+      "total_violations": 1444,
+      "recurrence_rate": 0.7351,
+      "avg_daily_violations": 13.01,
+      "avg_downstream": 13.01,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP042 - Minsk Square Junction (CTO)",
+      "active_days": 71,
+      "total_violations": 912,
+      "recurrence_rate": 0.4702,
+      "avg_daily_violations": 12.85,
+      "avg_downstream": 12.85,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP016 - 5th Main Road, RPC Layout",
+      "active_days": 51,
+      "total_violations": 587,
+      "recurrence_rate": 0.3377,
+      "avg_daily_violations": 11.51,
+      "avg_downstream": 11.51,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP130 - GD Mara Junction",
+      "active_days": 43,
+      "total_violations": 489,
+      "recurrence_rate": 0.2848,
+      "avg_daily_violations": 11.37,
+      "avg_downstream": 11.37,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP188 - 27th Cross, 4th Main, Jayanagar",
+      "active_days": 18,
+      "total_violations": 197,
+      "recurrence_rate": 0.1192,
+      "avg_daily_violations": 10.94,
+      "avg_downstream": 10.94,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP032 - Windsor Circle",
+      "active_days": 73,
+      "total_violations": 797,
+      "recurrence_rate": 0.4834,
+      "avg_daily_violations": 10.92,
+      "avg_downstream": 10.92,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP070 - Cholurpalya Junction, Magadi Road",
+      "active_days": 72,
+      "total_violations": 774,
+      "recurrence_rate": 0.4768,
+      "avg_daily_violations": 10.75,
+      "avg_downstream": 10.75,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP023 - Mahalaxmi Layout Entrance",
+      "active_days": 92,
+      "total_violations": 949,
+      "recurrence_rate": 0.6093,
+      "avg_daily_violations": 10.32,
+      "avg_downstream": 10.32,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP024 - NPS, Vijayanagar",
+      "active_days": 39,
+      "total_violations": 390,
+      "recurrence_rate": 0.2583,
+      "avg_daily_violations": 10.0,
+      "avg_downstream": 10.0,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP108 - Tagore Park Junction",
+      "active_days": 86,
+      "total_violations": 825,
+      "recurrence_rate": 0.5695,
+      "avg_daily_violations": 9.59,
+      "avg_downstream": 9.59,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP048 - Shanthala Junction",
+      "active_days": 80,
+      "total_violations": 738,
+      "recurrence_rate": 0.5298,
+      "avg_daily_violations": 9.22,
+      "avg_downstream": 9.22,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP196 - Sarakki Main Road",
+      "active_days": 9,
+      "total_violations": 83,
+      "recurrence_rate": 0.0596,
+      "avg_daily_violations": 9.22,
+      "avg_downstream": 9.22,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP045 - Danvanthri Road Junction",
+      "active_days": 125,
+      "total_violations": 1139,
+      "recurrence_rate": 0.8278,
+      "avg_daily_violations": 9.11,
+      "avg_downstream": 9.11,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP011 - RR Kalyana Mantapa, Dr. Rajkumar Road",
+      "active_days": 64,
+      "total_violations": 571,
+      "recurrence_rate": 0.4238,
+      "avg_daily_violations": 8.92,
+      "avg_downstream": 8.92,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP172 - Nanjappa Circle",
+      "active_days": 38,
+      "total_violations": 335,
+      "recurrence_rate": 0.2517,
+      "avg_daily_violations": 8.82,
+      "avg_downstream": 8.82,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP182 - 19th Main Junction, Rajajinagar",
+      "active_days": 68,
+      "total_violations": 587,
+      "recurrence_rate": 0.4503,
+      "avg_daily_violations": 8.63,
+      "avg_downstream": 8.63,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP208 - Havanur Circle",
+      "active_days": 54,
+      "total_violations": 466,
+      "recurrence_rate": 0.3576,
+      "avg_daily_violations": 8.63,
+      "avg_downstream": 8.63,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP104 - Medical College Circle",
+      "active_days": 82,
+      "total_violations": 697,
+      "recurrence_rate": 0.543,
+      "avg_daily_violations": 8.5,
+      "avg_downstream": 8.5,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP043 - Upparpet Junction",
+      "active_days": 101,
+      "total_violations": 832,
+      "recurrence_rate": 0.6689,
+      "avg_daily_violations": 8.24,
+      "avg_downstream": 8.24,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP114 - KR Road Junction, Near JSS",
+      "active_days": 5,
+      "total_violations": 39,
+      "recurrence_rate": 0.0331,
+      "avg_daily_violations": 7.8,
+      "avg_downstream": 7.8,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP155 - Katriguppe Junction",
+      "active_days": 25,
+      "total_violations": 195,
+      "recurrence_rate": 0.1656,
+      "avg_daily_violations": 7.8,
+      "avg_downstream": 7.8,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP069 - MC Circle",
+      "active_days": 49,
+      "total_violations": 368,
+      "recurrence_rate": 0.3245,
+      "avg_daily_violations": 7.51,
+      "avg_downstream": 7.51,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP204 - ESI Hospital, Rajajinagar",
+      "active_days": 43,
+      "total_violations": 321,
+      "recurrence_rate": 0.2848,
+      "avg_daily_violations": 7.47,
+      "avg_downstream": 7.47,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP061 - Bhashyam Circle",
+      "active_days": 67,
+      "total_violations": 499,
+      "recurrence_rate": 0.4437,
+      "avg_daily_violations": 7.45,
+      "avg_downstream": 7.45,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP135 - UCO Bank Junction",
+      "active_days": 76,
+      "total_violations": 561,
+      "recurrence_rate": 0.5033,
+      "avg_daily_violations": 7.38,
+      "avg_downstream": 7.38,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP068 - Veeresh Theatre Junction",
+      "active_days": 32,
+      "total_violations": 235,
+      "recurrence_rate": 0.2119,
+      "avg_daily_violations": 7.34,
+      "avg_downstream": 7.34,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP205 - Modi Hospital Junction",
+      "active_days": 67,
+      "total_violations": 492,
+      "recurrence_rate": 0.4437,
+      "avg_daily_violations": 7.34,
+      "avg_downstream": 7.34,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP206 - Shankara Mutt Circle, Vijayanagar",
+      "active_days": 42,
+      "total_violations": 308,
+      "recurrence_rate": 0.2781,
+      "avg_daily_violations": 7.33,
+      "avg_downstream": 7.33,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP008 - Navarang Theatre",
+      "active_days": 76,
+      "total_violations": 554,
+      "recurrence_rate": 0.5033,
+      "avg_daily_violations": 7.29,
+      "avg_downstream": 7.29,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP041 - Gopal Gowda Circle",
+      "active_days": 30,
+      "total_violations": 202,
+      "recurrence_rate": 0.1987,
+      "avg_daily_violations": 6.73,
+      "avg_downstream": 6.73,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP038 - Mysore Bank Junction",
+      "active_days": 89,
+      "total_violations": 596,
+      "recurrence_rate": 0.5894,
+      "avg_daily_violations": 6.7,
+      "avg_downstream": 6.7,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP026 - 1st Block Junction, Rajajinagar",
+      "active_days": 51,
+      "total_violations": 341,
+      "recurrence_rate": 0.3377,
+      "avg_daily_violations": 6.69,
+      "avg_downstream": 6.69,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP074 - Leprosy Hospital Junction",
+      "active_days": 69,
+      "total_violations": 459,
+      "recurrence_rate": 0.457,
+      "avg_daily_violations": 6.65,
+      "avg_downstream": 6.65,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP207 - 8th Main Road Basaveshwara Nagar",
+      "active_days": 25,
+      "total_violations": 164,
+      "recurrence_rate": 0.1656,
+      "avg_daily_violations": 6.56,
+      "avg_downstream": 6.56,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP096 - Gali Anjaneya Temple",
+      "active_days": 68,
+      "total_violations": 435,
+      "recurrence_rate": 0.4503,
+      "avg_daily_violations": 6.4,
+      "avg_downstream": 6.4,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP022 - Marenahalli Junction, Vijayanagar",
+      "active_days": 73,
+      "total_violations": 458,
+      "recurrence_rate": 0.4834,
+      "avg_daily_violations": 6.27,
+      "avg_downstream": 6.27,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP028 - Vijayanagar Bus Stand Junction",
+      "active_days": 51,
+      "total_violations": 314,
+      "recurrence_rate": 0.3377,
+      "avg_daily_violations": 6.16,
+      "avg_downstream": 6.16,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP170 - Dr. Bheem Rao Palace, Chord Road",
+      "active_days": 50,
+      "total_violations": 307,
+      "recurrence_rate": 0.3311,
+      "avg_daily_violations": 6.14,
+      "avg_downstream": 6.14,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP167 - JC Road Junction",
+      "active_days": 38,
+      "total_violations": 225,
+      "recurrence_rate": 0.2517,
+      "avg_daily_violations": 5.92,
+      "avg_downstream": 5.92,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP010 - Rajajinagar Entrance",
+      "active_days": 73,
+      "total_violations": 413,
+      "recurrence_rate": 0.4834,
+      "avg_daily_violations": 5.66,
+      "avg_downstream": 5.66,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP076 - Hudson Circle",
+      "active_days": 43,
+      "total_violations": 243,
+      "recurrence_rate": 0.2848,
+      "avg_daily_violations": 5.65,
+      "avg_downstream": 5.65,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP123 - 10th Cross, Wilson Garden",
+      "active_days": 73,
+      "total_violations": 409,
+      "recurrence_rate": 0.4834,
+      "avg_daily_violations": 5.6,
+      "avg_downstream": 5.6,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP184 - Lalbagh West Gate",
+      "active_days": 19,
+      "total_violations": 106,
+      "recurrence_rate": 0.1258,
+      "avg_daily_violations": 5.58,
+      "avg_downstream": 5.58,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP063 - Siddalingaiah Circle",
+      "active_days": 83,
+      "total_violations": 451,
+      "recurrence_rate": 0.5497,
+      "avg_daily_violations": 5.43,
+      "avg_downstream": 5.43,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP105 - Shivasankara Circle",
+      "active_days": 23,
+      "total_violations": 125,
+      "recurrence_rate": 0.1523,
+      "avg_daily_violations": 5.43,
+      "avg_downstream": 5.43,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP071 - Prasanna Junction",
+      "active_days": 63,
+      "total_violations": 338,
+      "recurrence_rate": 0.4172,
+      "avg_daily_violations": 5.37,
+      "avg_downstream": 5.37,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP109 - Dewan Madhava Rao Junction",
+      "active_days": 36,
+      "total_violations": 178,
+      "recurrence_rate": 0.2384,
+      "avg_daily_violations": 4.94,
+      "avg_downstream": 4.94,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP101 - Blood Bank Circle, KH Road",
+      "active_days": 30,
+      "total_violations": 146,
+      "recurrence_rate": 0.1987,
+      "avg_daily_violations": 4.87,
+      "avg_downstream": 4.87,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP137 - Madiwala Traffic PS Junction",
+      "active_days": 62,
+      "total_violations": 302,
+      "recurrence_rate": 0.4106,
+      "avg_daily_violations": 4.87,
+      "avg_downstream": 4.87,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP107 - National College Junction",
+      "active_days": 14,
+      "total_violations": 67,
+      "recurrence_rate": 0.0927,
+      "avg_daily_violations": 4.79,
+      "avg_downstream": 4.79,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP189 - New Diagonal Road, Jayanagar",
+      "active_days": 43,
+      "total_violations": 206,
+      "recurrence_rate": 0.2848,
+      "avg_daily_violations": 4.79,
+      "avg_downstream": 4.79,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP218 - Syndicate Bank Junction",
+      "active_days": 39,
+      "total_violations": 187,
+      "recurrence_rate": 0.2583,
+      "avg_daily_violations": 4.79,
+      "avg_downstream": 4.79,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP148 - 17th Main, Doopanahalli Bus Stop",
+      "active_days": 59,
+      "total_violations": 282,
+      "recurrence_rate": 0.3907,
+      "avg_daily_violations": 4.78,
+      "avg_downstream": 4.78,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP216 - Yediyur Junction",
+      "active_days": 23,
+      "total_violations": 105,
+      "recurrence_rate": 0.1523,
+      "avg_daily_violations": 4.57,
+      "avg_downstream": 4.57,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP118 - Basappa Circle",
+      "active_days": 55,
+      "total_violations": 250,
+      "recurrence_rate": 0.3642,
+      "avg_daily_violations": 4.55,
+      "avg_downstream": 4.55,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP215 - Vanivillas Junction",
+      "active_days": 42,
+      "total_violations": 189,
+      "recurrence_rate": 0.2781,
+      "avg_daily_violations": 4.5,
+      "avg_downstream": 4.5,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP106 - VV Puram College",
+      "active_days": 24,
+      "total_violations": 107,
+      "recurrence_rate": 0.1589,
+      "avg_daily_violations": 4.46,
+      "avg_downstream": 4.46,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP095 - Satellite Bus Stand, Mysore Road",
+      "active_days": 64,
+      "total_violations": 285,
+      "recurrence_rate": 0.4238,
+      "avg_daily_violations": 4.45,
+      "avg_downstream": 4.45,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP018 - Dhobi Ghat Junction",
+      "active_days": 38,
+      "total_violations": 166,
+      "recurrence_rate": 0.2517,
+      "avg_daily_violations": 4.37,
+      "avg_downstream": 4.37,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP142 - Lower Agram Road Junction",
+      "active_days": 3,
+      "total_violations": 13,
+      "recurrence_rate": 0.0199,
+      "avg_daily_violations": 4.33,
+      "avg_downstream": 4.33,
+      "top_cause": "NO PARKING; WRONG PARKING; DOUBLE PARKING; PARKING IN A MAIN ROAD"
+    },
+    {
+      "junction": "BTP164 - 29th Main Road, BTM Layout",
+      "active_days": 9,
+      "total_violations": 39,
+      "recurrence_rate": 0.0596,
+      "avg_daily_violations": 4.33,
+      "avg_downstream": 4.33,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP100 - Richmond Circle",
+      "active_days": 22,
+      "total_violations": 95,
+      "recurrence_rate": 0.1457,
+      "avg_daily_violations": 4.32,
+      "avg_downstream": 4.32,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP212 - Minto Junction",
+      "active_days": 14,
+      "total_violations": 58,
+      "recurrence_rate": 0.0927,
+      "avg_daily_violations": 4.14,
+      "avg_downstream": 4.14,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP226 - 33rd Cross, 11th Main, Jayanagar",
+      "active_days": 51,
+      "total_violations": 209,
+      "recurrence_rate": 0.3377,
+      "avg_daily_violations": 4.1,
+      "avg_downstream": 4.1,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP210 - 50th cross, 12th Main , Rajajinagar",
+      "active_days": 51,
+      "total_violations": 207,
+      "recurrence_rate": 0.3377,
+      "avg_daily_violations": 4.06,
+      "avg_downstream": 4.06,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP117 - 9th Cross, Kanakapura Road",
+      "active_days": 42,
+      "total_violations": 164,
+      "recurrence_rate": 0.2781,
+      "avg_daily_violations": 3.9,
+      "avg_downstream": 3.9,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP078 - NR Square Junction",
+      "active_days": 33,
+      "total_violations": 127,
+      "recurrence_rate": 0.2185,
+      "avg_daily_violations": 3.85,
+      "avg_downstream": 3.85,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP163 - 16th Main Road, BTM Layout",
+      "active_days": 21,
+      "total_violations": 80,
+      "recurrence_rate": 0.1391,
+      "avg_daily_violations": 3.81,
+      "avg_downstream": 3.81,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP127 - Sagar Hospital, Jayanagar",
+      "active_days": 15,
+      "total_violations": 57,
+      "recurrence_rate": 0.0993,
+      "avg_daily_violations": 3.8,
+      "avg_downstream": 3.8,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP092 - Bangalore Builders Junction",
+      "active_days": 14,
+      "total_violations": 53,
+      "recurrence_rate": 0.0927,
+      "avg_daily_violations": 3.79,
+      "avg_downstream": 3.79,
+      "top_cause": "PARKING IN A MAIN ROAD; NO PARKING"
+    },
+    {
+      "junction": "BTP143 - ASC Junction",
+      "active_days": 4,
+      "total_violations": 15,
+      "recurrence_rate": 0.0265,
+      "avg_daily_violations": 3.75,
+      "avg_downstream": 3.75,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP190 - 36th Cross, 4th Main, Jayanagar",
+      "active_days": 18,
+      "total_violations": 67,
+      "recurrence_rate": 0.1192,
+      "avg_daily_violations": 3.72,
+      "avg_downstream": 3.72,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP158 - Devegowda Petrol Bunk",
+      "active_days": 8,
+      "total_violations": 29,
+      "recurrence_rate": 0.053,
+      "avg_daily_violations": 3.62,
+      "avg_downstream": 3.62,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP140 - Madiwala Check Post",
+      "active_days": 47,
+      "total_violations": 169,
+      "recurrence_rate": 0.3113,
+      "avg_daily_violations": 3.6,
+      "avg_downstream": 3.6,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP193 - Vasavi Circle",
+      "active_days": 15,
+      "total_violations": 54,
+      "recurrence_rate": 0.0993,
+      "avg_daily_violations": 3.6,
+      "avg_downstream": 3.6,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP168 - MSR Building, JC Road",
+      "active_days": 24,
+      "total_violations": 86,
+      "recurrence_rate": 0.1589,
+      "avg_daily_violations": 3.58,
+      "avg_downstream": 3.58,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP132 - Anepalya Junction",
+      "active_days": 16,
+      "total_violations": 57,
+      "recurrence_rate": 0.106,
+      "avg_daily_violations": 3.56,
+      "avg_downstream": 3.56,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP036 - Police Thimmaiah Circle (GPO)",
+      "active_days": 13,
+      "total_violations": 46,
+      "recurrence_rate": 0.0861,
+      "avg_daily_violations": 3.54,
+      "avg_downstream": 3.54,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP197 - 9th Cross, 24th Main, JP Nagar",
+      "active_days": 31,
+      "total_violations": 109,
+      "recurrence_rate": 0.2053,
+      "avg_daily_violations": 3.52,
+      "avg_downstream": 3.52,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP089 - Police Quarters, Sultan Road",
+      "active_days": 16,
+      "total_violations": 56,
+      "recurrence_rate": 0.106,
+      "avg_daily_violations": 3.5,
+      "avg_downstream": 3.5,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP054 - Shivananda Circle",
+      "active_days": 82,
+      "total_violations": 285,
+      "recurrence_rate": 0.543,
+      "avg_daily_violations": 3.48,
+      "avg_downstream": 3.48,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP047 - Vidhan Soudha Metro Station",
+      "active_days": 28,
+      "total_violations": 96,
+      "recurrence_rate": 0.1854,
+      "avg_daily_violations": 3.43,
+      "avg_downstream": 3.43,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP091 - Sirsi Circle",
+      "active_days": 42,
+      "total_violations": 144,
+      "recurrence_rate": 0.2781,
+      "avg_daily_violations": 3.43,
+      "avg_downstream": 3.43,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP034 - LRDE Junction",
+      "active_days": 21,
+      "total_violations": 69,
+      "recurrence_rate": 0.1391,
+      "avg_daily_violations": 3.29,
+      "avg_downstream": 3.29,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP192 - Urvashi Theater",
+      "active_days": 85,
+      "total_violations": 280,
+      "recurrence_rate": 0.5629,
+      "avg_daily_violations": 3.29,
+      "avg_downstream": 3.29,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP067 - Jai Muni Rao Circle",
+      "active_days": 45,
+      "total_violations": 147,
+      "recurrence_rate": 0.298,
+      "avg_daily_violations": 3.27,
+      "avg_downstream": 3.27,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP180 - Swagath Poornima Theatre",
+      "active_days": 46,
+      "total_violations": 150,
+      "recurrence_rate": 0.3046,
+      "avg_daily_violations": 3.26,
+      "avg_downstream": 3.26,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP062 - Basava Mantapa, Dr. Rajkumar Road",
+      "active_days": 54,
+      "total_violations": 174,
+      "recurrence_rate": 0.3576,
+      "avg_daily_violations": 3.22,
+      "avg_downstream": 3.22,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP099 - Cash Pharmacy, Residency Road",
+      "active_days": 33,
+      "total_violations": 105,
+      "recurrence_rate": 0.2185,
+      "avg_daily_violations": 3.18,
+      "avg_downstream": 3.18,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP006 - Navarang Bar Junction",
+      "active_days": 6,
+      "total_violations": 19,
+      "recurrence_rate": 0.0397,
+      "avg_daily_violations": 3.17,
+      "avg_downstream": 3.17,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP093 - Toll Gate, Mysore Road",
+      "active_days": 19,
+      "total_violations": 59,
+      "recurrence_rate": 0.1258,
+      "avg_daily_violations": 3.11,
+      "avg_downstream": 3.11,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP176 - Rajalakshmi Kalyana Mantapa, JP Nagar",
+      "active_days": 23,
+      "total_violations": 71,
+      "recurrence_rate": 0.1523,
+      "avg_daily_violations": 3.09,
+      "avg_downstream": 3.09,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP120 - Lalbagh Main Gate Junction",
+      "active_days": 29,
+      "total_violations": 89,
+      "recurrence_rate": 0.1921,
+      "avg_daily_violations": 3.07,
+      "avg_downstream": 3.07,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP214 - 5th Main Chamrajpet  Junction",
+      "active_days": 23,
+      "total_violations": 70,
+      "recurrence_rate": 0.1523,
+      "avg_daily_violations": 3.04,
+      "avg_downstream": 3.04,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP030 - Mekhri Circle",
+      "active_days": 17,
+      "total_violations": 51,
+      "recurrence_rate": 0.1126,
+      "avg_daily_violations": 3.0,
+      "avg_downstream": 3.0,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP094 - Sri Skanda Complex, Mysore Road",
+      "active_days": 19,
+      "total_violations": 57,
+      "recurrence_rate": 0.1258,
+      "avg_daily_violations": 3.0,
+      "avg_downstream": 3.0,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP179 - 9th Block, 28th Main, Jayanagar",
+      "active_days": 6,
+      "total_violations": 18,
+      "recurrence_rate": 0.0397,
+      "avg_daily_violations": 3.0,
+      "avg_downstream": 3.0,
+      "top_cause": "NO PARKING; WRONG PARKING; PARKING IN A MAIN ROAD"
+    },
+    {
+      "junction": "BTP202 - East End Main Road, Jayanagar",
+      "active_days": 13,
+      "total_violations": 39,
+      "recurrence_rate": 0.0861,
+      "avg_daily_violations": 3.0,
+      "avg_downstream": 3.0,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP079 - Town Hall Junction",
+      "active_days": 21,
+      "total_violations": 62,
+      "recurrence_rate": 0.1391,
+      "avg_daily_violations": 2.95,
+      "avg_downstream": 2.95,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP217 - Baleyele Junction",
+      "active_days": 19,
+      "total_violations": 56,
+      "recurrence_rate": 0.1258,
+      "avg_daily_violations": 2.95,
+      "avg_downstream": 2.95,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP119 - Minerva Circle",
+      "active_days": 28,
+      "total_violations": 82,
+      "recurrence_rate": 0.1854,
+      "avg_daily_violations": 2.93,
+      "avg_downstream": 2.93,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP219 - Canara Bank Junction",
+      "active_days": 41,
+      "total_violations": 120,
+      "recurrence_rate": 0.2715,
+      "avg_daily_violations": 2.93,
+      "avg_downstream": 2.93,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP203 - RRMR Junction",
+      "active_days": 30,
+      "total_violations": 87,
+      "recurrence_rate": 0.1987,
+      "avg_daily_violations": 2.9,
+      "avg_downstream": 2.9,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP225 - Geetha Junction",
+      "active_days": 43,
+      "total_violations": 123,
+      "recurrence_rate": 0.2848,
+      "avg_daily_violations": 2.86,
+      "avg_downstream": 2.86,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP171 - Indian Express (Balekundri)",
+      "active_days": 19,
+      "total_violations": 54,
+      "recurrence_rate": 0.1258,
+      "avg_daily_violations": 2.84,
+      "avg_downstream": 2.84,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP098 - Nayandahalli Junction",
+      "active_days": 32,
+      "total_violations": 90,
+      "recurrence_rate": 0.2119,
+      "avg_daily_violations": 2.81,
+      "avg_downstream": 2.81,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP128 - Gorappanapalya Junction",
+      "active_days": 12,
+      "total_violations": 33,
+      "recurrence_rate": 0.0795,
+      "avg_daily_violations": 2.75,
+      "avg_downstream": 2.75,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP220 - Puttanna Junction",
+      "active_days": 39,
+      "total_violations": 107,
+      "recurrence_rate": 0.2583,
+      "avg_daily_violations": 2.74,
+      "avg_downstream": 2.74,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP037 - KR Circle",
+      "active_days": 37,
+      "total_violations": 101,
+      "recurrence_rate": 0.245,
+      "avg_daily_violations": 2.73,
+      "avg_downstream": 2.73,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP177 - Aurobindo Circle, ORR",
+      "active_days": 33,
+      "total_violations": 89,
+      "recurrence_rate": 0.2185,
+      "avg_daily_violations": 2.7,
+      "avg_downstream": 2.7,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP145 - Sri Hatti Maramma Circle, Domluru",
+      "active_days": 27,
+      "total_violations": 72,
+      "recurrence_rate": 0.1788,
+      "avg_daily_violations": 2.67,
+      "avg_downstream": 2.67,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP113 - 27th Cross, Pai Vista, KR Road",
+      "active_days": 17,
+      "total_violations": 45,
+      "recurrence_rate": 0.1126,
+      "avg_daily_violations": 2.65,
+      "avg_downstream": 2.65,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP033 - Sophia High School, Sankey Road",
+      "active_days": 17,
+      "total_violations": 44,
+      "recurrence_rate": 0.1126,
+      "avg_daily_violations": 2.59,
+      "avg_downstream": 2.59,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP015 - Suguna Hospital, Dr. Rajkumar Road",
+      "active_days": 12,
+      "total_violations": 31,
+      "recurrence_rate": 0.0795,
+      "avg_daily_violations": 2.58,
+      "avg_downstream": 2.58,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP136 - Hosur-Tavarkere Road Junction",
+      "active_days": 53,
+      "total_violations": 137,
+      "recurrence_rate": 0.351,
+      "avg_daily_violations": 2.58,
+      "avg_downstream": 2.58,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP052 - CID Carlton House Junction",
+      "active_days": 25,
+      "total_violations": 64,
+      "recurrence_rate": 0.1656,
+      "avg_daily_violations": 2.56,
+      "avg_downstream": 2.56,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP166 - Coffee Board Junction",
+      "active_days": 22,
+      "total_violations": 55,
+      "recurrence_rate": 0.1457,
+      "avg_daily_violations": 2.5,
+      "avg_downstream": 2.5,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP115 - Sahasra Hospital, Jayanagar",
+      "active_days": 44,
+      "total_violations": 109,
+      "recurrence_rate": 0.2914,
+      "avg_daily_violations": 2.48,
+      "avg_downstream": 2.48,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP126 - Dairy Circle",
+      "active_days": 55,
+      "total_violations": 135,
+      "recurrence_rate": 0.3642,
+      "avg_daily_violations": 2.45,
+      "avg_downstream": 2.45,
+      "top_cause": "PARKING IN A MAIN ROAD; WRONG PARKING"
+    },
+    {
+      "junction": "BTP146 - Domlur Water Tank",
+      "active_days": 22,
+      "total_violations": 54,
+      "recurrence_rate": 0.1457,
+      "avg_daily_violations": 2.45,
+      "avg_downstream": 2.45,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP133 - Adugodi Junction",
+      "active_days": 23,
+      "total_violations": 54,
+      "recurrence_rate": 0.1523,
+      "avg_daily_violations": 2.35,
+      "avg_downstream": 2.35,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP009 - Prakash Nagar Junction",
+      "active_days": 13,
+      "total_violations": 30,
+      "recurrence_rate": 0.0861,
+      "avg_daily_violations": 2.31,
+      "avg_downstream": 2.31,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP064 - Devanga Hostel Junction",
+      "active_days": 28,
+      "total_violations": 63,
+      "recurrence_rate": 0.1854,
+      "avg_daily_violations": 2.25,
+      "avg_downstream": 2.25,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP122 - Siddapura Junction",
+      "active_days": 29,
+      "total_violations": 64,
+      "recurrence_rate": 0.1921,
+      "avg_daily_violations": 2.21,
+      "avg_downstream": 2.21,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP173 - TMC",
+      "active_days": 24,
+      "total_violations": 52,
+      "recurrence_rate": 0.1589,
+      "avg_daily_violations": 2.17,
+      "avg_downstream": 2.17,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP222 - Delmia Circle",
+      "active_days": 12,
+      "total_violations": 26,
+      "recurrence_rate": 0.0795,
+      "avg_daily_violations": 2.17,
+      "avg_downstream": 2.17,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP187 - South End Circle",
+      "active_days": 15,
+      "total_violations": 32,
+      "recurrence_rate": 0.0993,
+      "avg_daily_violations": 2.13,
+      "avg_downstream": 2.13,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP191 - 40th Cross, 4th Main, Jayanagar",
+      "active_days": 24,
+      "total_violations": 51,
+      "recurrence_rate": 0.1589,
+      "avg_daily_violations": 2.12,
+      "avg_downstream": 2.12,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP213 - Royan Circle",
+      "active_days": 9,
+      "total_violations": 19,
+      "recurrence_rate": 0.0596,
+      "avg_daily_violations": 2.11,
+      "avg_downstream": 2.11,
+      "top_cause": "PARKING IN A MAIN ROAD; NO PARKING"
+    },
+    {
+      "junction": "BTP085 - Briyand Circle",
+      "active_days": 38,
+      "total_violations": 78,
+      "recurrence_rate": 0.2517,
+      "avg_daily_violations": 2.05,
+      "avg_downstream": 2.05,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP221 - 15th Cross, 24th Main, JP Nagar",
+      "active_days": 20,
+      "total_violations": 41,
+      "recurrence_rate": 0.1325,
+      "avg_daily_violations": 2.05,
+      "avg_downstream": 2.05,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP138 - Sarjapur Road Check Post",
+      "active_days": 26,
+      "total_violations": 50,
+      "recurrence_rate": 0.1722,
+      "avg_daily_violations": 1.92,
+      "avg_downstream": 1.92,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP141 - Palmgroove Junction",
+      "active_days": 8,
+      "total_violations": 15,
+      "recurrence_rate": 0.053,
+      "avg_daily_violations": 1.88,
+      "avg_downstream": 1.88,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP103 - Shanti Nagar TTMC",
+      "active_days": 32,
+      "total_violations": 59,
+      "recurrence_rate": 0.2119,
+      "avg_daily_violations": 1.84,
+      "avg_downstream": 1.84,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP102 - BMTC Junction, KH Road",
+      "active_days": 29,
+      "total_violations": 53,
+      "recurrence_rate": 0.1921,
+      "avg_daily_violations": 1.83,
+      "avg_downstream": 1.83,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP075 - Police Corner",
+      "active_days": 27,
+      "total_violations": 49,
+      "recurrence_rate": 0.1788,
+      "avg_daily_violations": 1.81,
+      "avg_downstream": 1.81,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP159 - JP Nagar Metro, ORR",
+      "active_days": 19,
+      "total_violations": 34,
+      "recurrence_rate": 0.1258,
+      "avg_daily_violations": 1.79,
+      "avg_downstream": 1.79,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP110 - Bharathi Nursing Home, Basavanagudi",
+      "active_days": 4,
+      "total_violations": 7,
+      "recurrence_rate": 0.0265,
+      "avg_daily_violations": 1.75,
+      "avg_downstream": 1.75,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP185 - RV Teachers College",
+      "active_days": 10,
+      "total_violations": 17,
+      "recurrence_rate": 0.0662,
+      "avg_daily_violations": 1.7,
+      "avg_downstream": 1.7,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP154 - Itmadu Junction",
+      "active_days": 3,
+      "total_violations": 5,
+      "recurrence_rate": 0.0199,
+      "avg_daily_violations": 1.67,
+      "avg_downstream": 1.67,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP121 - KH Circle",
+      "active_days": 16,
+      "total_violations": 26,
+      "recurrence_rate": 0.106,
+      "avg_daily_violations": 1.62,
+      "avg_downstream": 1.62,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP200 - 15th Cross, 33rd Main, JP Nagar",
+      "active_days": 10,
+      "total_violations": 16,
+      "recurrence_rate": 0.0662,
+      "avg_daily_violations": 1.6,
+      "avg_downstream": 1.6,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP178 - 18th Main, Marenahalli",
+      "active_days": 2,
+      "total_violations": 3,
+      "recurrence_rate": 0.0132,
+      "avg_daily_violations": 1.5,
+      "avg_downstream": 1.5,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP134 - Mico Bande",
+      "active_days": 11,
+      "total_violations": 16,
+      "recurrence_rate": 0.0728,
+      "avg_daily_violations": 1.45,
+      "avg_downstream": 1.45,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP157 - Kadirenahalli Cross",
+      "active_days": 10,
+      "total_violations": 14,
+      "recurrence_rate": 0.0662,
+      "avg_daily_violations": 1.4,
+      "avg_downstream": 1.4,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP077 - Halasuru Gate Junction",
+      "active_days": 6,
+      "total_violations": 8,
+      "recurrence_rate": 0.0397,
+      "avg_daily_violations": 1.33,
+      "avg_downstream": 1.33,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP112 - 14th Cross, KR Road",
+      "active_days": 3,
+      "total_violations": 4,
+      "recurrence_rate": 0.0199,
+      "avg_daily_violations": 1.33,
+      "avg_downstream": 1.33,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP156 - Kamakya Junction",
+      "active_days": 3,
+      "total_violations": 4,
+      "recurrence_rate": 0.0199,
+      "avg_daily_violations": 1.33,
+      "avg_downstream": 1.33,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP035 - Basaweshwara Circle (LH) Junction",
+      "active_days": 10,
+      "total_violations": 12,
+      "recurrence_rate": 0.0662,
+      "avg_daily_violations": 1.2,
+      "avg_downstream": 1.2,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP053 - Three Let Junction",
+      "active_days": 11,
+      "total_violations": 13,
+      "recurrence_rate": 0.0728,
+      "avg_daily_violations": 1.18,
+      "avg_downstream": 1.18,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP025 - Puttamma Choultry, Nagarbhavi",
+      "active_days": 2,
+      "total_violations": 2,
+      "recurrence_rate": 0.0132,
+      "avg_daily_violations": 1.0,
+      "avg_downstream": 1.0,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP144 - Commando Hospital Junction",
+      "active_days": 1,
+      "total_violations": 1,
+      "recurrence_rate": 0.0066,
+      "avg_daily_violations": 1.0,
+      "avg_downstream": 1.0,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP161 - 15th Cross, 35th Main, JP Nagar",
+      "active_days": 1,
+      "total_violations": 1,
+      "recurrence_rate": 0.0066,
+      "avg_daily_violations": 1.0,
+      "avg_downstream": 1.0,
+      "top_cause": "WRONG PARKING"
+    },
+    {
+      "junction": "BTP181 - Bileka Halli Junction",
+      "active_days": 2,
+      "total_violations": 2,
+      "recurrence_rate": 0.0132,
+      "avg_daily_violations": 1.0,
+      "avg_downstream": 1.0,
+      "top_cause": "NO PARKING"
+    },
+    {
+      "junction": "BTP198 - 9th Cross, 8th Main, JP Nagar",
+      "active_days": 1,
+      "total_violations": 1,
+      "recurrence_rate": 0.0066,
+      "avg_daily_violations": 1.0,
+      "avg_downstream": 1.0,
+      "top_cause": "WRONG PARKING"
+    }
+  ],
+  "event_type_cascade": [
+    {
+      "junction": "BTP082 - KR Market Junction",
+      "event_cause": "WRONG PARKING",
+      "trigger_count": 5441,
+      "active_days": 141,
+      "avg_downstream": 38.59,
+      "max_downstream": 194,
+      "avg_clearance": 0.0
+    },
+    {
+      "junction": "BTP051 - Safina Plaza Junction",
+      "event_cause": "WRONG PARKING",
+      "trigger_count": 3169,
+      "active_days": 125,
+      "avg_downstream": 25.35,
+      "max_downstream": 168,
+      "avg_clearance": 0.0
+    },
+    {
+      "junction": "BTP040 - Elite Junction",
+      "event_cause": "NO PARKING",
+      "trigger_count": 2691,
+      "active_days": 126,
+      "avg_downstream": 21.36,
+      "max_downstream": 132,
+      "avg_clearance": 0.0
+    },
+    {
+      "junction": "BTP063 - Siddalingaiah Circle",
+      "event_cause": "PARKING IN A MAIN ROAD; WRONG PARKING",
+      "trigger_count": 21,
+      "active_days": 1,
+      "avg_downstream": 21.0,
+      "max_downstream": 21,
+      "avg_clearance": 0.0
+    },
+    {
+      "junction": "BTP051 - Safina Plaza Junction",
+      "event_cause": "NO PARKING",
+      "trigger_count": 2271,
+      "active_days": 118,
+      "avg_downstream": 19.25,
+      "max_downstream": 95,
+      "avg_clearance": 0.0
+    },
+    {
+      "junction": "BTP155 - Katriguppe Junction",
+      "event_cause": "PARKING IN A MAIN ROAD; NO PARKING",
+      "trigger_count": 18,
+      "active_days": 1,
+      "avg_downstream": 18.0,
+      "max_downstream": 18,
+      "avg_clearance": 0.0
+    },
+    {
+      "junction": "BTP040 - Elite Junction",
+      "event_cause": "WRONG PARKING",
+      "trigger_count": 2131,
+      "active_days": 123,
+      "avg_downstream": 17.33,
+      "max_downstream": 75,
+      "avg_clearance": 0.0
+    },
+    {
+      "junction": "BTP027 - Modi Bridge Junction",
+      "event_cause": "WRONG PARKING",
+      "trigger_count": 1626,
+      "active_days": 95,
+      "avg_downstream": 17.12,
+      "max_downstream": 124,
+      "avg_clearance": 0.0
+    },
+    {
+      "junction": "BTP044 - Sagar Theatre Junction",
+      "event_cause": "NO PARKING",
+      "trigger_count": 2272,
+      "active_days": 136,
+      "avg_downstream": 16.71,
+      "max_downstream": 115,
+      "avg_clearance": 0.0
+    },
+    {
+      "junction": "BTP017 - Attiguppe Circle",
+      "event_cause": "WRONG PARKING",
+      "trigger_count": 215,
+      "active_days": 13,
+      "avg_downstream": 16.54,
+      "max_downstream": 44,
+      "avg_clearance": 0.0
+    },
+    {
+      "junction": "BTP044 - Sagar Theatre Junction",
+      "event_cause": "WRONG PARKING",
+      "trigger_count": 2106,
+      "active_days": 134,
+      "avg_downstream": 15.72,
+      "max_downstream": 90,
+      "avg_clearance": 0.0
+    },
+    {
+      "junction": "BTP044 - Sagar Theatre Junction",
+      "event_cause": "WRONG PARKING; PARKING IN A MAIN ROAD",
+      "trigger_count": 137,
+      "active_days": 9,
+      "avg_downstream": 15.22,
+      "max_downstream": 43,
+      "avg_clearance": 0.0
+    },
+    {
+      "junction": "BTP020 - Hosahalli Metro Station",
+      "event_cause": "WRONG PARKING; DOUBLE PARKING",
+      "trigger_count": 15,
+      "active_days": 1,
+      "avg_downstream": 15.0,
+      "max_downstream": 15,
+      "avg_clearance": 0.0
+    },
+    {
+      "junction": "BTP186 - 9th Cross, 4th Main, Jayanagar",
+      "event_cause": "WRONG PARKING",
+      "trigger_count": 274,
+      "active_days": 19,
+      "avg_downstream": 14.42,
+      "max_downstream": 53,
+      "avg_clearance": 0.0
+    },
+    {
+      "junction": "BTP057 - Anand Rao Junction",
+      "event_cause": "NO PARKING; WRONG PARKING",
+      "trigger_count": 14,
+      "active_days": 1,
+      "avg_downstream": 14.0,
+      "max_downstream": 14,
+      "avg_clearance": 0.0
+    },
+    {
+      "junction": "BTP051 - Safina Plaza Junction",
+      "event_cause": "WRONG PARKING; REFUSE TO GO FOR HIRE",
+      "trigger_count": 125,
+      "active_days": 9,
+      "avg_downstream": 13.89,
+      "max_downstream": 48,
+      "avg_clearance": 0.0
+    },
+    {
+      "junction": "BTP020 - Hosahalli Metro Station",
+      "event_cause": "WRONG PARKING",
+      "trigger_count": 649,
+      "active_days": 50,
+      "avg_downstream": 12.98,
+      "max_downstream": 90,
+      "avg_clearance": 0.0
+    },
+    {
+      "junction": "BTP058 - Subbanna Junction",
+      "event_cause": "NO PARKING",
+      "trigger_count": 1650,
+      "active_days": 129,
+      "avg_downstream": 12.79,
+      "max_downstream": 78,
+      "avg_clearance": 0.0
+    },
+    {
+      "junction": "BTP027 - Modi Bridge Junction",
+      "event_cause": "NO PARKING; PARKING IN A MAIN ROAD",
+      "trigger_count": 50,
+      "active_days": 4,
+      "avg_downstream": 12.5,
+      "max_downstream": 30,
+      "avg_clearance": 0.0
+    },
+    {
+      "junction": "BTP042 - Minsk Square Junction (CTO)",
+      "event_cause": "WRONG PARKING",
+      "trigger_count": 496,
+      "active_days": 41,
+      "avg_downstream": 12.1,
+      "max_downstream": 72,
+      "avg_clearance": 0.0
+    },
+    {
+      "junction": "BTP089 - Police Quarters, Sultan Road",
+      "event_cause": "PARKING IN A MAIN ROAD; NO PARKING",
+      "trigger_count": 12,
+      "active_days": 1,
+      "avg_downstream": 12.0,
+      "max_downstream": 12,
+      "avg_clearance": 0.0
+    },
+    {
+      "junction": "BTP188 - 27th Cross, 4th Main, Jayanagar",
+      "event_cause": "NO PARKING",
+      "trigger_count": 168,
+      "active_days": 14,
+      "avg_downstream": 12.0,
+      "max_downstream": 49,
+      "avg_clearance": 0.0
+    },
+    {
+      "junction": "BTP080 - NR Road, SP Road Junction",
+      "event_cause": "WRONG PARKING",
+      "trigger_count": 975,
+      "active_days": 82,
+      "avg_downstream": 11.89,
+      "max_downstream": 90,
+      "avg_clearance": 0.0
+    },
+    {
+      "junction": "BTP024 - NPS, Vijayanagar",
+      "event_cause": "WRONG PARKING",
+      "trigger_count": 293,
+      "active_days": 25,
+      "avg_downstream": 11.72,
+      "max_downstream": 71,
+      "avg_clearance": 0.0
+    },
+    {
+      "junction": "BTP016 - 5th Main Road, RPC Layout",
+      "event_cause": "WRONG PARKING",
+      "trigger_count": 441,
+      "active_days": 38,
+      "avg_downstream": 11.61,
+      "max_downstream": 102,
+      "avg_clearance": 0.0
+    },
+    {
+      "junction": "BTP001 - 10th Cross, Dr. Rajkumar Road",
+      "event_cause": "WRONG PARKING",
+      "trigger_count": 852,
+      "active_days": 74,
+      "avg_downstream": 11.51,
+      "max_downstream": 50,
+      "avg_clearance": 0.0
+    },
+    {
+      "junction": "BTP211 - Central Street Junction",
+      "event_cause": "WRONG PARKING",
+      "trigger_count": 1102,
+      "active_days": 96,
+      "avg_downstream": 11.48,
+      "max_downstream": 107,
+      "avg_clearance": 0.0
+    },
+    {
+      "junction": "BTP130 - GD Mara Junction",
+      "event_cause": "NO PARKING",
+      "trigger_count": 427,
+      "active_days": 40,
+      "avg_downstream": 10.68,
+      "max_downstream": 34,
+      "avg_clearance": 0.0
+    },
+    {
+      "junction": "BTP114 - KR Road Junction, Near JSS",
+      "event_cause": "NO PARKING",
+      "trigger_count": 32,
+      "active_days": 3,
+      "avg_downstream": 10.67,
+      "max_downstream": 30,
+      "avg_clearance": 0.0
+    },
+    {
+      "junction": "BTP105 - Shivasankara Circle",
+      "event_cause": "WRONG PARKING",
+      "trigger_count": 53,
+      "active_days": 5,
+      "avg_downstream": 10.6,
+      "max_downstream": 21,
+      "avg_clearance": 0.0
+    }
+  ],
+  "metadata": {
+    "analysis_type": "recurrence",
+    "dataset_span_days": 151,
+    "description": "avg_downstream = avg daily violations at this junction. High recurrence_rate = chronic enforcement blind spot."
+  }
+}
