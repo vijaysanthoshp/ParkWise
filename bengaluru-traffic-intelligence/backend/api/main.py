@@ -329,6 +329,21 @@ def predict_demand(payload: dict):
 
     level_info = DEMAND_LEVELS[level]
 
+    # Calculate Congestion Severity
+    junction_risk = next((r for r in RISK_SCORES if r.get("junction") == junction_name), {})
+    base_risk = float(junction_risk.get("risk_score", 5.0))
+    narrowness_index = round(min(5.0, max(1.0, 1.0 + (base_risk / 2.5))), 1)
+    congestion_severity = round(pred_count * narrowness_index, 1)
+
+    if congestion_severity >= 40:
+        impact_level = "SEVERE CHOKEPOINT"
+    elif congestion_severity >= 15:
+        impact_level = "MODERATE CONGESTION"
+    elif congestion_severity > 0:
+        impact_level = "LOW IMPACT"
+    else:
+        impact_level = "NO IMPACT"
+
     # SHAP
     shap_dict  = {}
     base_value = 0.0
@@ -354,6 +369,9 @@ def predict_demand(payload: dict):
         "junction_name":          junction_name,
         "hour_of_day":            hour,
         "day_of_week":            day,
+        "road_narrowness":        narrowness_index,
+        "congestion_severity":    congestion_severity,
+        "impact_level":           impact_level,
     }
 
 

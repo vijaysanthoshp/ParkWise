@@ -19,17 +19,17 @@ function ShapChart({ shapValues, baseValue }) {
   if (!shapValues || Object.keys(shapValues).length === 0) return null
 
   const labelMap = {
-    junction_encoded:     'Junction identity',
-    hour_of_day:          'Hour of day',
-    day_of_week:          'Day of week',
-    is_peak_hour:         'Peak patrol hour',
-    is_weekend:           'Weekend',
-    zone_encoded:         'Zone / area',
-    dominant_veh_encoded: 'Dominant vehicle type',
-    nearest_zone_encoded: 'Nearby zone type',
-    avg_parking_score:    'Parking density score',
-    parking_prob_mean:    'NLP parking probability',
-    has_junction:         'Has junction marker',
+    junction_encoded:     'Historical Location Risk',
+    hour_of_day:          'Time of Day',
+    day_of_week:          'Day of Week',
+    is_peak_hour:         'Peak Patrol Hour',
+    is_weekend:           'Weekend Status',
+    zone_encoded:         'Zone / Area Type',
+    dominant_veh_encoded: 'Dominant Vehicle Type',
+    nearest_zone_encoded: 'Nearby Zone Characteristics',
+    avg_parking_score:    'Spatial Parking Density',
+    parking_prob_mean:    'Text Analysis Risk Score',
+    has_junction:         'Physical Junction Marker',
   }
 
   const data = Object.entries(shapValues)
@@ -40,24 +40,62 @@ function ShapChart({ shapValues, baseValue }) {
       val:  +val.toFixed(2),
     }))
 
+  let insight = null;
+  if (data.length > 0) {
+    const topFactor = data[0];
+    const isPositive = topFactor.val > 0;
+    
+    let insightText = "";
+    if (topFactor.feat === 'Time of Day') {
+      insightText = isPositive 
+        ? "💡 Insight: The current time is the biggest factor increasing the expected violations."
+        : "💡 Insight: The current time drastically reduces the expected violations, even if this is usually a busy area.";
+    } else if (topFactor.feat === 'Historical Location Risk') {
+      insightText = isPositive 
+        ? "💡 Insight: This specific junction's historical tendency for illegal parking is driving this high forecast."
+        : "💡 Insight: Historically, this location sees very few violations, pulling the forecast down.";
+    } else {
+      insightText = isPositive 
+        ? `💡 Insight: The factor "${topFactor.feat}" is significantly increasing the expected number of violations.`
+        : `💡 Insight: The factor "${topFactor.feat}" is strongly decreasing the need for enforcement right now.`;
+    }
+
+    insight = (
+      <div style={{
+        background: 'rgba(99, 102, 241, 0.08)',
+        border: '1px solid rgba(99, 102, 241, 0.3)',
+        borderRadius: 8,
+        padding: '12px 16px',
+        marginTop: 12,
+        marginBottom: 16,
+        fontSize: 13,
+        color: 'var(--text-1)',
+        lineHeight: 1.5,
+        fontWeight: 500
+      }}>
+        {insightText}
+      </div>
+    );
+  }
+
   return (
     <div>
       <div className="section-title" style={{ marginTop: 16 }}>
-        🧠 What Drives This Forecast (SHAP)
-        <span className="sub">Base rate: {baseValue} violations/slot</span>
+        🎯 Key Factors Influencing This Prediction
       </div>
+      {insight}
       <ResponsiveContainer width="100%" height={260}>
         <BarChart data={data} layout="vertical" margin={{ left: 10, right: 55, top: 0, bottom: 0 }}>
           <CartesianGrid strokeDasharray="3 3" stroke="#f3f4f6" />
           <XAxis
             type="number"
             tick={{ fontSize: 10 }}
-            label={{ value: 'Violations impact', position: 'insideBottom', offset: -2, fontSize: 10 }}
+            label={{ value: 'Impact on violations', position: 'insideBottom', offset: -2, fontSize: 10 }}
           />
-          <YAxis type="category" dataKey="feat" tick={{ fontSize: 10 }} width={155} />
+          <YAxis type="category" dataKey="feat" tick={{ fontSize: 10 }} width={175} />
           <Tooltip
             contentStyle={{ fontSize: 11, borderRadius: 8, border: '1px solid #e5e7eb' }}
-            formatter={v => [`${v > 0 ? '+' : ''}${v} violations`, 'Feature impact']}
+            formatter={v => [`${v > 0 ? '+' : ''}${v} violations`, 'Impact']}
           />
           <ReferenceLine x={0} stroke="#374151" strokeWidth={1.5} />
           <Bar dataKey="val" radius={[0, 4, 4, 0]}>
@@ -68,7 +106,7 @@ function ShapChart({ shapValues, baseValue }) {
         </BarChart>
       </ResponsiveContainer>
       <div style={{ fontSize: 10, color: 'var(--text-4)', textAlign: 'center', marginTop: 4 }}>
-        🔴 Increases expected violations · 🟢 Decreases expected violations
+        🔴 Factors increasing violations · 🟢 Factors decreasing violations
       </div>
     </div>
   )
@@ -132,16 +170,17 @@ function ValidationChart({ validation }) {
             const maxVal = Object.values(validation.feature_importance)[0]
             const pct    = (val / maxVal) * 100
             const labelMap = {
-              junction_encoded: 'Junction identity',
-              hour_of_day:      'Hour of day',
-              parking_prob_mean:'NLP parking probability',
-              has_junction:     'Has junction marker',
-              avg_parking_score:'Parking density score',
-              zone_encoded:     'Zone / area',
-              is_peak_hour:     'Peak patrol hour',
-              is_weekend:       'Weekend',
-              dominant_veh_encoded: 'Dominant vehicle type',
-              nearest_zone_encoded: 'Nearby zone type',
+              junction_encoded:     'Historical Location Risk',
+              hour_of_day:          'Time of Day',
+              day_of_week:          'Day of Week',
+              is_peak_hour:         'Peak Patrol Hour',
+              is_weekend:           'Weekend Status',
+              zone_encoded:         'Zone / Area Type',
+              dominant_veh_encoded: 'Dominant Vehicle Type',
+              nearest_zone_encoded: 'Nearby Zone Characteristics',
+              avg_parking_score:    'Spatial Parking Density',
+              parking_prob_mean:    'Text Analysis Risk Score',
+              has_junction:         'Physical Junction Marker',
             }
             return (
               <div key={i} style={{ marginBottom: 8 }}>
@@ -180,6 +219,12 @@ function ValidationChart({ validation }) {
 /* ── Result Box ─────────────────────────────────────── */
 function ResultBox({ result }) {
   const cfg = DEMAND_CONFIG[result.demand_level] || DEMAND_CONFIG.MINIMAL
+
+  let impactColor = "#94a3b8"; // NO IMPACT
+  if (result.impact_level === "SEVERE CHOKEPOINT") impactColor = "#EF4444";
+  else if (result.impact_level === "MODERATE CONGESTION") impactColor = "#F59E0B";
+  else if (result.impact_level === "LOW IMPACT") impactColor = "#22C55E";
+
   return (
     <div style={{
       background: cfg.bg,
@@ -201,16 +246,35 @@ function ResultBox({ result }) {
           violations
         </span>
       </div>
+
+      {result.impact_level && (
+        <div style={{
+          marginTop: 16, padding: '12px',
+          background: '#fff', border: `1px solid ${impactColor}50`, 
+          borderRadius: 10, boxShadow: '0 2px 8px rgba(0,0,0,0.02)'
+        }}>
+          <div style={{ fontSize: 10, fontWeight: 700, color: 'var(--text-3)', textTransform: 'uppercase', letterSpacing: 0.5, marginBottom: 4 }}>
+            Traffic Flow Impact
+          </div>
+          <div style={{ fontSize: 15, fontWeight: 800, color: impactColor }}>
+            {result.impact_level}
+          </div>
+          <div style={{ fontSize: 11, color: 'var(--text-2)', marginTop: 6, fontFamily: 'monospace', background: 'var(--surface-2)', padding: '6px', borderRadius: 6 }}>
+            {result.expected_violations} violations × {result.road_narrowness} narrowness = <strong>{result.congestion_severity} Severity</strong>
+          </div>
+        </div>
+      )}
+
       <div style={{
         display: 'inline-flex', alignItems: 'center', gap: 6,
         background: cfg.badge, color: '#fff',
         padding: '5px 16px', borderRadius: 20,
-        fontSize: 13, fontWeight: 700, marginTop: 10,
+        fontSize: 13, fontWeight: 700, marginTop: 14,
       }}>
         {cfg.icon} {cfg.label}
       </div>
       <div style={{
-        marginTop: 14, padding: '10px 16px',
+        marginTop: 10, padding: '10px 16px',
         background: 'rgba(0,0,0,0.04)', borderRadius: 8,
         fontSize: 12, fontWeight: 600, color: 'var(--text-2)',
       }}>
@@ -233,6 +297,7 @@ export default function Tab2_Predictions({ api }) {
   const [validation,setValidation]    = useState(null)
   const [loading,   setLoading]       = useState(false)
   const [error,     setError]         = useState('')
+  const [showMetrics, setShowMetrics] = useState(false)
 
   // Load junctions list
   useEffect(() => {
@@ -439,15 +504,33 @@ export default function Tab2_Predictions({ api }) {
       </div>
 
       {/* Validation section */}
-      <div style={{ marginTop: 16 }}>
-        {validation
-          ? <ValidationChart validation={validation} />
-          : (
-            <div className="card" style={{ textAlign: 'center', color: 'var(--text-4)', padding: 24 }}>
-              Validation metrics unavailable. Run <code>python pipeline/run_all.py --only 05</code> first.
-            </div>
-          )
-        }
+      <div style={{ marginTop: 24, borderTop: '1px solid var(--border)', paddingTop: 16 }}>
+        <button 
+           onClick={() => setShowMetrics(!showMetrics)}
+           style={{
+             background: 'none', border: '1px solid var(--border)', borderRadius: 8,
+             padding: '10px 16px', fontSize: 13, fontWeight: 600, color: 'var(--text-3)',
+             cursor: 'pointer', display: 'flex', alignItems: 'center', gap: 8, width: '100%',
+             justifyContent: 'center', transition: 'all 0.2s'
+           }}
+           onMouseOver={e => e.currentTarget.style.background = 'var(--surface-2)'}
+           onMouseOut={e => e.currentTarget.style.background = 'none'}
+        >
+          {showMetrics ? 'Hide' : '🛠️ View'} AI Performance & Global Metrics (For Evaluators)
+        </button>
+
+        {showMetrics && (
+           <div style={{ marginTop: 16 }} className="fade-in">
+             {validation
+               ? <ValidationChart validation={validation} />
+               : (
+                 <div className="card" style={{ textAlign: 'center', color: 'var(--text-4)', padding: 24 }}>
+                   Validation metrics unavailable. Run <code>python pipeline/run_all.py --only 05</code> first.
+                 </div>
+               )
+             }
+           </div>
+        )}
       </div>
     </div>
   )
