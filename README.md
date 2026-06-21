@@ -14,7 +14,7 @@ You can view the live deployment of ParkWise here: **[https://park-wise-seven.ve
 
 ## 🎥 Full Video Demo
 
-Watch the complete walkthrough of the ParkWise module here: **[https://www.youtube.com/watch?v=vwBHDhNQbGQ]{https://www.youtube.com/watch?v=vwBHDhNQbGQ}**
+Watch the complete walkthrough of the ParkWise module here: **https://www.youtube.com/watch?v=vwBHDhNQbGQ**
 
 ---
 
